@@ -1,0 +1,50 @@
+author Amphetamine
+description "Located in Planet Sago, this small building used to be one of the Baron's domains until its owner, having left no descendants of its own, passed away. Now it's just another arena for combat."
+maxTeamSize 3
+minTeamSize 2
+timeLimit 15
+support_dm yes
+support_team yes
+support_tourney yes
+support_ctf no
+support_1fctf no
+support_harvester no
+support_obelisk no
+support_elimination yes
+support_ctfelim no
+support_lms yes
+support_dd yes
+support_dom yes
+support_pos yes
+
+gametype dm
+fragLimit 20
+minPlayers 2
+
+gametype team
+fragLimit 50
+minTeamSize 2
+
+gametype tourney
+fragLimit 15
+minPlayers 2
+
+gametype elimination
+captureLimit 10
+minTeamSize 2
+
+gametype lms
+fragLimit 10
+minPlayers 2
+
+gametype dd
+captureLimit 3
+minTeamSize 2
+
+gametype dom
+captureLimit 200
+minTeamSize 2
+
+gametype pos
+fragLimit 200
+minPlayers 2

@@ -1,0 +1,40 @@
+author cosmo
+description "The Floating Spire is a temple built a millennia ago by an unknown race in order to worship a forgotten god. Nowadays it's being used for the OpenArena Tournament. Combatants must be aware that falling into the pit may not lead to death, but it's still not recommended to stay for long."
+maxTeamSize 6
+minTeamSize 2
+
+support_dm yes
+support_team yes
+support_tourney no
+support_ctf no
+support_1fctf no
+support_harvester no
+support_obelisk no
+support_elimination no
+support_ctfelim no
+support_lms yes
+support_dd no
+support_dom yes
+support_pos yes
+
+gametype dm
+fragLimit 20
+minPlayers 4
+
+gametype team
+fragLimit 40
+minPlayers 4
+minTeamSize 2
+
+gametype lms
+fragLimit 10
+minPlayers 4
+
+gametype dom
+captureLimit 200
+minPlayers 4
+minTeamSize 2
+
+gametype pos
+fragLimit 200
+minPlayers 4
