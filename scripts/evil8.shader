@@ -14,6 +14,7 @@ textures/bubctf1/bubctf1_skybox
 
 textures/bubctf1/e8_launchpad1
 {
+	qer_editorImage textures/bubctf1/editor/e8_launchpad1.tga
 	q3map_lightimage textures/bubctf1/e8_launchpad1.blend.tga
 	surfaceparm nodamage
 	q3map_surfacelight 100
@@ -42,6 +43,7 @@ textures/bubctf1/e8_launchpad1
 
 textures/bubctf1/e8_launchpad1r
 {
+	qer_editorImage textures/bubctf1/editor/e8_launchpad1r.tga
 	q3map_lightimage textures/bubctf1/e8_launchpad1.blendr.tga
 	surfaceparm nodamage
 	q3map_surfacelight 100

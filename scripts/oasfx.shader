@@ -22,7 +22,7 @@ textures/sfx2/boostflame
 //took out the light, was kinda sickening
 textures/sfx/xflame3
 {
-	qer_trans 0.5
+	qer_trans 0.99
 	qer_editorimage textures/clown/flame8.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -46,7 +46,7 @@ textures/sfx/xflame3
 
 textures/sfx/xflame4
 {
-	qer_trans 0.5
+	qer_trans 0.99
 	q3map_lightimage textures/clown/fleshy.tga
 	qer_editorimage textures/sfx/flame7.tga
 	surfaceparm nolightmap
@@ -451,7 +451,7 @@ textures/sfx/mkc_bigflame
 
 textures/sfx/xflame2_2250
 {
-	qer_trans 0.5
+	qer_trans 0.99
 	qer_editorimage textures/sfx/flame2.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -474,7 +474,7 @@ textures/sfx/xflame2_2250
 
 textures/sfx/xflame2_1800
 {
-	qer_trans 0.5
+	qer_trans 0.99
 	qer_editorimage textures/sfx/flame5.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -497,7 +497,7 @@ textures/sfx/xflame2_1800
 
 textures/sfx/xflame2_nolight
 {
-	qer_trans 0.5
+	qer_trans 0.99
 	qer_editorimage textures/sfx/flame5.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks
@@ -899,7 +899,7 @@ textures/sfx/flame2
 
 textures/sfx/xflame2
 {
-	qer_trans 0.5
+	qer_trans 0.99
 	qer_editorimage textures/sfx/flame5.tga
 	surfaceparm nolightmap
 	surfaceparm nomarks

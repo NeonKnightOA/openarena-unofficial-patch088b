@@ -167,6 +167,7 @@ textures/ctf_unified/floor_decal_red
 
 textures/ctf_unified/monologo_flash_blue
 {
+	qer_editorImage textures/symbols/blueteam.tga
 	cull disable
 	{
 		map textures/symbols/blueteam.tga
@@ -175,6 +176,7 @@ textures/ctf_unified/monologo_flash_blue
 
 textures/ctf_unified/monologo_flash_red
 {
+	qer_editorImage textures/symbols/redteam.tga
 	cull disable
 	{
 		map textures/symbols/redteam.tga
