@@ -1,7 +1,7 @@
 textures/czest3ctf/fir_branch
 {
 	qer_editorimage textures/czest3ctf/fir_branch.tga
-	qer_trans 0.5
+	qer_trans 0.99
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	cull disable

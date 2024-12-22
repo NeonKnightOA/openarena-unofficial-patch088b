@@ -1,6 +1,7 @@
 textures/cosmo_sfx/flag_scimitar_brown1
 {
 	qer_editorimage textures/cosmo_sfx/flag_scimitar_brown1.tga
+	qer_trans 0.99
 	surfaceparm nomarks
 	surfaceparm alphashadow
 	cull none
@@ -22,6 +23,7 @@ textures/cosmo_sfx/flag_scimitar_brown1
 textures/cosmo_sfx/flag_oa_brown1
 {
 	qer_editorimage textures/cosmo_sfx/flag_oa_brown1.tga
+	qer_trans 0.99
 	surfaceparm nomarks
 	surfaceparm alphashadow
 	cull none
@@ -42,6 +44,7 @@ textures/cosmo_sfx/flag_oa_brown1
 textures/cosmo_sfx/flag_oa_red1
 {
 	qer_editorimage textures/cosmo_sfx/flag_oa_red1.tga
+	qer_trans 0.99
 	surfaceparm nomarks
 	surfaceparm alphashadow
 	cull none
@@ -62,6 +65,7 @@ textures/cosmo_sfx/flag_oa_red1
 textures/cosmo_sfx/flag_oa_blue1
 {
 	qer_editorimage textures/cosmo_sfx/flag_oa_blue1.tga
+	qer_trans 0.99
 	surfaceparm nomarks
 	surfaceparm alphashadow
 	cull none

@@ -1,6 +1,6 @@
 textures/proto2/bluea_dcl
 {
-	qer_trans 0.5
+	qer_trans 0.99
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm nolightmap
@@ -14,7 +14,7 @@ textures/proto2/bluea_dcl
 }
 textures/proto2/blueat_dcl
 {
-	qer_trans 0.5
+	qer_trans 0.99
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm nolightmap
@@ -28,7 +28,7 @@ textures/proto2/blueat_dcl
 }
 textures/proto2/redat_dcl
 {
-	qer_trans 0.5
+	qer_trans 0.99
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm nolightmap
@@ -42,7 +42,7 @@ textures/proto2/redat_dcl
 }
 textures/proto2/reda_dcl
 {
-	qer_trans 0.5
+	qer_trans 0.99
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm nolightmap

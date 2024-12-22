@@ -1,6 +1,6 @@
 textures/sfx/flame-oasago
 {
-	qer_trans 0.5
+	qer_trans 0.99
 	q3map_lightimage textures/sfx/flame1-blend.tga
 	qer_editorimage textures/sfx/flame1.tga
 	surfaceparm nolightmap
@@ -28,7 +28,7 @@ textures/sfx/flame-oasago
 
 textures/sfx/r_flame-oasago
 {
-	qer_trans 0.5
+	qer_trans 0.99
 	q3map_lightimage textures/sfx/r_flame1-blend.tga
 	qer_editorimage textures/sfx/r_flame1.tga
 	surfaceparm nolightmap
@@ -56,7 +56,7 @@ textures/sfx/r_flame-oasago
 
 textures/sfx/b_flame-oasago
 {
-	qer_trans 0.5
+	qer_trans 0.99
 	q3map_lightimage textures/sfx/b_flame1-blend.tga
 	qer_editorimage textures/sfx/b_flame1.tga
 	surfaceparm nolightmap
