@@ -1,0 +1,3 @@
+- Megahealth replaced by Battle Suit.
+- Added grates, also 2x Combat Armor and 2x 25+ Health above or below in the corners.
+- Jumppads crossing sites, and a BFG floating in the middle.

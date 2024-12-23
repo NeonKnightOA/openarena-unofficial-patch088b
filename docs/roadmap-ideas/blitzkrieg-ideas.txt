@@ -1,0 +1,8 @@
+Made changes:
+- Changed teleporter textures. They're no more portals.
+- Ceiling. There're some windows tho.
+- Lighting.
+- Some minor details, some clipping.
+- Raised MH & RG computers.
+- Replaced YA with RA.
+- Added some Shards on the jumppads.

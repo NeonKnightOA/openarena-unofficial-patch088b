@@ -1,0 +1,104 @@
+== General ==
+- Added remaining music tracks.
+- Added development textures.
+- Added new common shaders.
+- Regenerated shaderlist.txt to match the new shaders list.
+- Fixed all shaders so they display their proper images in the Editor. Liquids and fogs are also displayed with qer_trans.
+- Fixed and recompiled all .ase mapmodels.
+* Found and fixed all progressive JPEGs.
+- Shaders evil8 and evil8_base: Used the mappatch as a base.
+- Replaced old 0.8.8 CTF banners with newer ones featuring the newer OA logo.
+* Reorganized shaders, duplicated shaders were deleted.
+
+== Map-specific ==
+In general:
+* Lowered pickup locations to floor level.
+* Added weapon/armor/powerup bases.
+* Added jumppad and teleporter effects.
+* Added location names for team games.
+* Compiled with NRC "Final" settings for Q3.
+* All maps have now properly assigned gamemodes.
+* All maps with the neutral flag can now be chosen for Possession.
+* All maps autocaulked.
+* All dummied out maps now available for the Skirmish/Create Server menus.
+am_galmevish:
+- Used 081am_galmevish as a base.
+am_galmevish2:
+- Used the mappatch version as a base.
+- Added spawnrooms for Double Domination.
+am_lavactf:
+- Used the mappatch version as a base.
+* Added spawnrooms for Double Domination.
+am_lavactfxl:
+* Fixed team and neutral obelisk gametype properties.
+* Fixed team and neutral flags gametype properties.
+am_mckinleyish2:
+* Fixed team and neutral obelisk gametype properties.
+* Fixed team and neutral flags gametype properties.
+am_thornish:
+* Fixed team and neutral obelisk gametype properties.
+* Fixed team and neutral flags gametype properties.
+am_underworks:
+- Used 085am_underworks as a base.
+am_underworks2:
+- Used oad_underworks2 as a base.
+blitzkrieg3:
+- Used oad_blitzkrieg as a base.
+ctf_compromise:
+* Fixed team and neutral obelisk gametype properties.
+ctf_gate1:
+* Fixed team and neutral obelisk gametype properties.
+ctf_inyard:
+* Fixed team and neutral obelisk gametype properties.
+czest2ctf:
+* Spawnrooms now limited to Double Domination.
+czest3ctf:
+* Fixed team and neutral obelisk gametype properties.
+* In Double Domination, both teams will start at the outdoors.
+dm4ish:
+- Used r951 SVN version as a base.
+fan:
+- Used 071fan as a base.
+hydronex:
+- Used 071hydronex as a base.
+hydronex2:
+* Fixed team and neutral obelisk gametype properties.
+islandctf:
+- Used r951 SVN version as a base.
+islanddm:
+- Used r951 SVN version as a base.
+kaos:
+- Used r951 SVN version as a base.
+mlctf1beta:
+- Used oac_encephalo as a base.
+oa_bases3:
+* Fixed team and neutral obelisk gametype properties.
+oa_bases3cl:
+- Used r951 SVN version as a base.
+oa_bases3plus3 and oa_bases3p3ta:
+* Fixed team and neutral obelisk gametype properties.
+oa_bases5:
+- Used 071oabases5 as a base.
+oa_ctf2old:
+- Used r951 SVN version as a base.
+* Fixed team and neutral obelisk gametype properties.
+oa_dm1:
+- Added Elimination support.
+oa_dm3:
+- Added Elimination support.
+oa_dm6:
+- Used r951 SVN version as a base.
+oa_koth2:
+- Used the mappatch version as a base.
+oa_reptctf11:
+* Fixed team and neutral obelisk gametype properties.
+oa_shouse:
+- Used the mappatch version as a base.
+oasago1:
+* Fixed team and neutral obelisk gametype properties.
+oasago2:
+- Used oac_sago2 as a base.
+ps37ctf:
+- Used 081ps37ctf as a base.
+q3dm6ish:
+- Used r951 SVN version as a base.

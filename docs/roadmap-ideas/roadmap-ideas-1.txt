@@ -1,0 +1,19 @@
+More changes:
+- aggressor: removed the "Corner" and "Electro" points in DOM. Changed the "Mortar" point to "Grenade Launcher" and "Rocket Launcher At" to "Rocket Atrium". This map is just too small for four points.
+- czest1dm: Added Double Domination and Harvester support to the Elimination and Domination ones. Changed Intermission spot.
+- czest2ctf: Changed Intermission spot to a better place.
+- czest3ctf: Changed Intermission spot to a better place.
+- delta: Changed Intermission spot to a better place.
+- oa_bases3: Removed the Railgun and Lightning Gun, and added the Nailgun.
+- oa_bases7: Fixed the Plasmagun issue. :D
+- oa_ctf2: Changed Intermission spot to a better place.
+- oa_ctf2old: Changed Intermission spot to a better place.
+- oa_koth1: 
+- oa_koth2: Changed the Intermission point to a better place.
+- oa_minia: Added Harvester support. (At this point, wouldn't be a crazy idea to give it CTF support, it's 90% symmetric, it will even be one of the fewer non-symmetrical maps!)
+- oa_shouse: Added Harvester support.
+- oa_spirit3: 
+- oa_thor: 
+- 
+
+Levelshots and arena file included.
