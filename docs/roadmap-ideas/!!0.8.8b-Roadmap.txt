@@ -35,21 +35,40 @@
   * Fix team and neutral obelisk/flag gametype properties.
 * ctf_inyard
   * Fix team and neutral obelisk/flag gametype properties.
+* dm4ish:
+  * Use r951 SVN version as a base.
 * hydronex2
   * Add new weapon/item layout, hopefully better than the previous one.
   * Make all weapons and items use the new item base SFX.
+* islandctf:
+  * Use r951 SVN version as a base.
+* islanddm:
+  * Use r951 SVN version as a base.
+* kaos:
+  * Use r951 SVN version as a base.
 * oa_bases3
   * Fix team and neutral obelisk/flag gametype properties.
+* oa_bases3cl:
+  * Use r951 SVN version as a base.
 * oa_bases3plus3
   * Fix team and neutral obelisk/flag gametype properties.
 * oa_bases3p3ta
   * Fix team and neutral obelisk/flag gametype properties.
 * oa_ctf2old
+  * Use r951 SVN version as a base.
   * Fix team and neutral obelisk/flag gametype properties.
+* oa_dm1:
+  * Add Elimination support.
+* oa_dm3:
+  * Add Elimination support.
 * oa_dm5
   * Fix problem in SP (?)
   * Bring some of the changes made in oa_dm5v2.
+* oa_dm6:
+  * Use r951 SVN version as a base.
 * oa_reptctf11
   * Fix team and neutral obelisk/flag gametype properties.
 * oasago1
   * Fix team and neutral obelisk/flag gametype properties.
+* q3dm6ish:
+  * Use r951 SVN version as a base.

@@ -2,9 +2,7 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "Under Working 2.0"
-"author" "Neon_Knight"
-"music" "music/OA14.ogg"
+"message" "Under Working"
 // brush 0
 {
 ( 1024 1024 0 ) ( 1024 -512 0 ) ( 256 1024 0 ) common/hint 0.0000610352 0 0 0.4999999702 0.4999999702 0 0 0

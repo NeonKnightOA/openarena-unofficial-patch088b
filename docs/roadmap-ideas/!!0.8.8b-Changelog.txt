@@ -107,3 +107,5 @@ Classic UI: https://files.poulsander.com/~poul19/public_files/oa/dev088/gamecode
   - Uses the map patch from the Map Patches pack as a base.
 * oasago2
   - Uses oac_sago2 as a base.
+* ps37ctf:
+  - Uses 081ps37ctf as a base.

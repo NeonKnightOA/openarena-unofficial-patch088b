@@ -307,6 +307,10 @@
 	longname	"Thor's Valhalla"
 	type		"ctf oneflag harvester overload elimination ctfelimination dd dom"
 }
+{	map		"ps37ctf"
+	longname	"Obey 37"
+	type		"ctf oneflag harvester overload elimination ctfelimination dd"
+}
 {	map		"ps37ctf2"
 	longname	"Obey 37 2.0"
 	type		"ctf oneflag harvester overload elimination ctfelimination dd"
