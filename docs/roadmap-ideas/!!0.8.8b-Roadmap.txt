@@ -21,7 +21,6 @@
 * Autocaulk all brush-fixed maps.
 * Make all dummied out maps available for the Skirmish/Create Server menus.
 * aggressor
-  * Remove "Corner" and "Electro" points for DOM. (Eschew DOM support altogether?)
   * Change "Mortar" to "Grenade" and "Rocket Launcher At" by "Rocket Atrium".
 * am_lavactfxl
   * Add location names.
@@ -69,6 +68,9 @@
   * Add Intermission spot.
   * Add location names.
   * Add music track.
+* fan
+  * Add nodrop in the lava pit.
+  * Rework the middle fan so it can be stepped on easily.
 * islandctf
   * Use r951 SVN version as a base.
   * Add Intermission spot.
@@ -250,6 +252,8 @@
   * q3tourney6ish
   * tourney6ish_ctf
   * oat_tutorial1
+* aggressor
+  * Remove "Corner" and "Electro" points for DOM. (Eschew DOM support altogether?)
 * am_galmevish
   * Add grates in the upper levels? (Possibly)
   * Replace MH with Battle Suit? (Unlikely)
