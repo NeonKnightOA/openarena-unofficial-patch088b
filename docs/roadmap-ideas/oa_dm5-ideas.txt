@@ -1,3 +1,0 @@
-- oa_dm5:
-  * Arreglar problema SP
-  * Terminar nuevo pasaje y arreglos.

@@ -8,17 +8,12 @@ Classic UI: https://files.poulsander.com/~poul19/public_files/oa/dev088/gamecode
 + UI3: https://files.poulsander.com/~poul19/public_files/oa/dev088/gamecode_nightly/openarena_gamecode_2024-04-09_82f680c_UI3_2018-11-19_c719649_m.zip)
 
 == General ==
-* Many shaders are now displayed correctly in the editor.
+- Added developmental textures.
+- Added new "common" shaders.
+- Regenerated shaderlist.txt to match the new shaders list.
+- Shaders evil8 and evil8_base: Used the mappatch as a base.
 
 == Map specific ==
-* In general
-  * All fixed maps use the newer jumppad/item base SFX.
-  * All maps have message, author and music listed.
-  * All fixed maps were recompiled using NRC Q3 Final settings.
-  * All fixed maps have new levelshots.
-  * All instances of common/nodraw were replaced by common/nodrawnonsolid.
-  * All instances of info_player_start were replaced by info_player_deathmatch with spawnflags "1" (Initial).
-  * All maps include an .info file.
 * am_galmevish
   - Uses 081am_galmevish from the Older Versions pack as a base.
   - Relit the level.
@@ -71,29 +66,28 @@ Classic UI: https://files.poulsander.com/~poul19/public_files/oa/dev088/gamecode
   - All weapons and items use the new item base SFX.
   - target_locations re-scrambled, fewer ones were used this time.
   - BFG, Flight and Railgun now approachable without trickjumping. Railgun via jumppads and BFG/Flight via new connections.
-  * Relit the level.
-  * Redone all the pillars.
   - Tons of minor changes.
+* am_underworks:
+  - Uses 085am_underworks as a base.
 * am_underworks2
   - Uses oad_underworks2 as a base.
 * blitzkrieg3
   - Uses oad_blitzkrieg as a base.
   - All weapons and items use the new item base SFX.
   - All jumppads and teleportals use the new jumppad SFX.
-* ctf_compromise
-  * Fixed team and neutral obelisk/flag gametype properties.
-* ctf_gate1
-  * Fixed team and neutral obelisk/flag gametype properties.
-* ctf_inyard
-  * Fixed team and neutral obelisk/flag gametype properties.
 * czest2ctf
   - New Double Domination scramble: both points moved to the center area, one at the top and one at the bottom. Both teams start at their respective spawnrooms.
   - Fixed team and neutral obelisk/flag gametype properties.
   - Quad will now spawn in all gamemodes except Possession (OA3), Harvester and One Flag CTF.
   - Lower level +50 Health will not spawn in Double Domination.
 * czest3ctf
-  * Fixed team and neutral obelisk/flag gametype properties.
-  * In Double Domination, both teams will spawn at the outdoors areas.
+  - Fixed team and neutral obelisk/flag gametype properties.
+  - Relit the level.
+  - Increased height of secret Invisibility areas so players don't get hit in the head.
+  - Added new bridge at each team's outdoor areas.
+  - Added arrows guiding to each base.
+  - In Double Domination, both teams will spawn at the outdoors areas.
+  - More minor changes.
 * fan
   - Uses 071fan from the Older Versions pack as a base.
 * hydronex
@@ -101,29 +95,15 @@ Classic UI: https://files.poulsander.com/~poul19/public_files/oa/dev088/gamecode
   - Fixed team and neutral obelisk/flag gametype properties.
 * hydronex2
   - Fixed team and neutral obelisk/flag gametype properties.
-  * New weapon/item layout, hopefully better than the previous one.
-  * All weapons and items use the new item base SFX.
 * mlctf1beta
   - Uses oac_encephalo as a base, which includes the fixes from the map patch.
   - Recompiled the lights model.
   - Moved the neutral flag and obelisk to the upper level. This should lead to better fights in 1FCTF/Harvester/Possession. As a result, the Quad is available in all gamemodes sans these three, and the Body Armor is available in all gametypes.
-* oa_bases3
-  * Fixed team and neutral obelisk/flag gametype properties.
-* oa_bases3plus3
-  * Fixed team and neutral obelisk/flag gametype properties.
-* oa_bases3p3ta
-  * Fixed team and neutral obelisk/flag gametype properties.
 * oa_bases5
   - Uses 071oa_bases5 from the Older Versions pack as a base.
-* oa_ctf2old
-  * Fixed team and neutral obelisk/flag gametype properties.
 * oa_koth2
   - Uses the map patch from the Map Patches pack as a base.
-* oa_reptctf11
-  * Fixed team and neutral obelisk/flag gametype properties.
 * oa_shouse
   - Uses the map patch from the Map Patches pack as a base.
-* oasago1
-  * Fixed team and neutral obelisk/flag gametype properties.
 * oasago2
   - Uses oac_sago2 as a base.

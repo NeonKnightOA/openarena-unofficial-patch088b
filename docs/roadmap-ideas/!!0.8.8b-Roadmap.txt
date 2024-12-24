@@ -1,0 +1,55 @@
+== General ==
+* Fix shader display in-game.
+* Add remaining music tracks.
+
+== Map-specific ==
+* Make all the brush-fixed maps use the newer jumppad/teleporter/item base SFX.
+* Make all maps have message, author and music listed.
+* Recompile all fixed maps using NRC Q3 Final settings.
+* Give all fixed maps new levelshots. (Ensure that all maps have info_player_intermission)
+* Replace all instances of common/nodraw with common/nodrawnonsolid.
+* Replace all instances of info_player_start with info_player_deathmatch with spawnflags "1" (Initial).
+* Redo all target_locations.
+* Make .info files for all maps.
+* Fix and recompile all .ase mapmodels.
+* Find and fix all progressive JPEGs.
+* Replace old 0.8.8 CTF banners with newer ones featuring the newer OA logo.
+* Reorganize shaders, delete duplicated shaders.
+* Lower pickup locations to floor level.
+* Check all maps and properly assign them their respective gamemodes.
+** Make all maps with the neutral flag be choosable for Possession.
+* Autocaulk all brush-fixed maps.
+* Make all dummied out maps available for the Skirmish/Create Server menus.
+
+* am_galmevish
+  * Replace MH with Battle Suit?
+  * Add grates in the upper levels?
+  * Add Combat Armor and extra health in the corners?
+  * Bring the area-crossing jumppad from oad_galmevish?
+* am_thornish
+  * Relit the level.
+  * Redo all the pillars.
+* ctf_compromise
+  * Fix team and neutral obelisk/flag gametype properties.
+* ctf_gate1
+  * Fix team and neutral obelisk/flag gametype properties.
+* ctf_inyard
+  * Fix team and neutral obelisk/flag gametype properties.
+* hydronex2
+  * Add new weapon/item layout, hopefully better than the previous one.
+  * Make all weapons and items use the new item base SFX.
+* oa_bases3
+  * Fix team and neutral obelisk/flag gametype properties.
+* oa_bases3plus3
+  * Fix team and neutral obelisk/flag gametype properties.
+* oa_bases3p3ta
+  * Fix team and neutral obelisk/flag gametype properties.
+* oa_ctf2old
+  * Fix team and neutral obelisk/flag gametype properties.
+* oa_dm5
+  * Fix problem in SP (?)
+  * Bring some of the changes made in oa_dm5v2.
+* oa_reptctf11
+  * Fix team and neutral obelisk/flag gametype properties.
+* oasago1
+  * Fix team and neutral obelisk/flag gametype properties.

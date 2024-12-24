@@ -198,6 +198,10 @@
 	longname	"Trappie Land"
 	type		"ffa lms"
 }
+{	map		"am_underworks"
+	longname	"Under Working"
+	type		"ffa lms team tourney"
+}
 // CTF maps
 {	map		"am_lavactf"
 	longname	"Lava Arena (CTF)"
