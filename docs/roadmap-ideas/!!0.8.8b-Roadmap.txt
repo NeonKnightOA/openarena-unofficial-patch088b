@@ -2,7 +2,7 @@
 * Fix shader display in-game.
 * Add remaining music tracks.
 
-== Map-specific ==
+== To-Do list (move to Changelog when done) ==
 * Make all the brush-fixed maps use the newer jumppad/teleporter/item base SFX.
 * Make all maps have message, author and music listed.
 * Recompile all fixed maps using NRC Q3 Final settings.
@@ -20,15 +20,9 @@
 ** Make all maps with the neutral flag be choosable for Possession.
 * Autocaulk all brush-fixed maps.
 * Make all dummied out maps available for the Skirmish/Create Server menus.
-
 * aggressor
   * Remove "Corner" and "Electro" points for DOM. (Eschew DOM support altogether?)
   * Change "Mortar" to "Grenade" and "Rocket Launcher At" by "Rocket Atrium".
-* am_galmevish
-  * Replace MH with Battle Suit?
-  * Add grates in the upper levels?
-  * Add Combat Armor and extra health in the corners?
-  * Bring the area-crossing jumppad from oad_galmevish?
 * am_lavactfxl
   * Add location names.
 * am_spacecont
@@ -37,12 +31,6 @@
   * Relit the level.
   * Redo all the pillars.
 * am_underworks2
-  * Change destination of the understair teleport to the Depot Room.
-  * Extend floor of the Teleporter area.
-  * Slightly move the Depot Room domination point to the center. In order to balance this, move the Lightning Gun besides the Cargo car.
-  * Add a jumppad in the Depot Room to the Megahealth.
-  * Make the bots reach the Red Armor and the upper part of the Generator, which houses a DOM point and the Rocket Launcher in non-DOM modes.
-  * Add a special room for the Single-Player campaign. Make the bot start with every weapon, (including BFG, Nailgun, Chaingun and Prox) max armor and max health. ^^
   * Add music track.
 * blitzkrieg3
   * Add location names.
@@ -64,21 +52,14 @@
   * Fix team and neutral obelisk/flag gametype properties.
   * Add Intermission spot.
   * Add music track.
-* czest1dm
-  * Add support for Double Domination, 1FCTF and Harvester.
-  * Change Intermission spot to a better place.
 * czest1tourney
-  * Use oad_spacespire as a base?
   * Add Intermission spot.
   * Add location names.
   * Add music track.
 * czest2ctf
-  * Use oac_czest2 as a base?
   * Add location names.
 * delta
-  * Change Intermission spot to a better place.
   * Add arrows to bases.
-  * Add Domination support.
 * dm4ish
   * Use r951 SVN version as a base.
   * Add Intermission spot.
@@ -88,9 +69,6 @@
   * Add Intermission spot.
   * Add location names.
   * Add music track.
-* hydronex2
-  * Add new weapon/item layout, hopefully better than the previous one.
-  * Make all weapons and items use the new item base SFX.
 * islandctf
   * Use r951 SVN version as a base.
   * Add Intermission spot.
@@ -136,8 +114,6 @@
   * Fix map having a single info_player_start.
   * Add Intermission spot.
 * oa_dm1
-  * Use oa_dm1v2 as a base?
-  * Add Elimination support.
   * Check for items not showing in SP.
   * Add location names.
   * Add proper music track.
@@ -145,7 +121,6 @@
   * Add location names.
   * Add proper music track.
 * oa_dm3
-  * Add Elimination support.
   * Add Intermission spot.
   * Add location names.
   * Add music track.
@@ -153,11 +128,7 @@
   * Add location names.
   * Add music track.
 * oa_dm5
-  * Use oa_dm5v2 as a base?
-  * Fix problem in SP (?)
-  * Bring some of the changes made in oa_dm5v2.
   * Check for items not showing in SP.
-  * Add support for Domination?
   * Add location names.
   * Add proper music track.
 * oa_dm6
@@ -172,10 +143,7 @@
   * Check for items not showing in SP.
   * Add Intermission spot.
 * oa_koth2
-  * Change Intermission spot to a better place.
   * Add location names.
-* oa_minia
-  * Add support for Harvester?
 * oa_pvomit
   * Add location names.
   * Add proper music track.
@@ -190,7 +158,6 @@
   * Add location names.
   * Add music track.
 * oa_shouse
-  * Add support for Harvester?
   * Check for items not showing in SP.
   * Add location names.
 * oasago1
@@ -217,3 +184,108 @@
   * Add Intermission spot.
   * Add location names.
   * Add music track.
+
+== Ideas ==
+* New maps:
+  * Check Akom, GoD and Moixie's map libraries.
+    * god_2fort
+    * god_athmosfear
+    * god_dam
+    * god_infinitum
+    * god_oasago2
+    * god_oasago2y
+    * god_octagon
+    * god_openarena
+    * god_ps37ctf
+    * god_race
+    * god_racetest
+    * god_space
+    * god_speed
+    * god_speedyctf
+    * god_well
+    * oa_ctf4ishy
+    * ps37ctfy
+    * pul1ctfy
+    * mx1ctf1
+    * mx1ctf2
+    * mx1ctf5
+    * mx1ctf5_t3
+    * mx1ctf8
+    * mx2ctf1
+    * mx2ctf1_t3
+    * mx2ctf2
+    * mx2ctf5
+    * mx2dm1
+    * mx1lab (insomnia)
+    * mx3ctf1
+    * mx3ctf2
+    * mx3ctf2_t3
+    * mx4ctf2
+    * mx4dm1
+    * mx4dm1_alt1
+    * mxctf6
+    * oa_akomctf2
+    * oa_akomctf4
+    * oa_akomctf5
+    * oa_bloodrun
+    * oa_cargo
+    * oa_gateway
+    * oa_suicizer
+    * oa_torqc
+  * aggressor+++
+  * am_icyhell (which version to use?)
+  * am_mckinleyish (use oad_mckinley as a base)
+  * blitzkrieg2 (use oad_oldkrieg as a base)
+  * hntourney1 (use oad_hypern1v1 as a base)
+  * hydronex3 (use oac_hydro3 as a base)
+  * oa_bod (use oad_bod as a base)
+  * oa_ctf4ish2
+  * oa_nemesis (use oad_nemesis as a base)
+  * oa_reptctf3 (use oac_paintemple as a base)
+  * oa_rpg3dm1 (use oad_rpg1 as a base)
+  * oa_uzul3 (use oad_uzul3 as a base)
+  * oa_spirit3t1 (use oad_kprejudice as a base)
+  * q3dm6ishv3 (use oad_castlegrnd as a base)
+  * q3dm6ish_ctf (use oac_q3dm6ctf as a base)
+  * q3tourney6ish
+  * tourney6ish_ctf
+  * oat_tutorial1
+* am_galmevish
+  * Add grates in the upper levels? (Possibly)
+  * Replace MH with Battle Suit? (Unlikely)
+  * Add Combat Armor and extra health in the corners? (Unlikely)
+  * Bring the area-crossing jumppad from oad_galmevish? (Possibly)
+* am_underworks2
+  * Change destination of the understair teleport to the Depot Room.
+  * Extend floor of the Teleporter area.
+  * Slightly move the Depot Room domination point to the center. In order to balance this, move the Lightning Gun besides the Cargo car.
+  * Add a jumppad in the Depot Room to the Megahealth.
+  * Make the bots reach the Red Armor and the upper part of the Generator, which houses a DOM point and the Rocket Launcher in non-DOM modes.
+  * Add a special room for the Single-Player campaign. Make the bot start with every weapon, (including BFG, Nailgun, Chaingun and Prox) max armor and max health. ^^
+* czest1dm
+  * Add support for Double Domination, 1FCTF and Harvester.
+  * Change Intermission spot to a better place.
+* czest1tourney
+  * Use oad_spacespire as a base?
+* czest2ctf
+  * Use oac_czest2 as a base?
+* delta
+  * Change Intermission spot to a better place.
+  * Add Domination support.
+* hydronex2
+  * Add new weapon/item layout, hopefully better than the previous one.
+* oa_dm1
+  * Use oa_dm1v2 as a base?
+  * Add Elimination support.
+* oa_dm3
+  * Add Elimination support.
+* oa_dm5
+  * Use oa_dm5v2 as a base?
+  * Bring some of the changes made in oa_dm5v2.
+  * Add support for Domination?
+* oa_koth2
+  * Change Intermission spot to a better place.
+* oa_minia
+  * Add support for Harvester?
+* oa_shouse
+  * Add support for Harvester?
