@@ -1,8 +1,0 @@
-- music
-- levelshots
-- levelname in "message"
-- target_location
-- ctf maps: CTF/1FCTF/Harv/Over/Elim/eCTF/DD support
-- short ffa maps: FFA/LMS/Tourney support
-- large ffa maps: FFA/LMS/Team/Elim support
-- differentiated maps: DOM support

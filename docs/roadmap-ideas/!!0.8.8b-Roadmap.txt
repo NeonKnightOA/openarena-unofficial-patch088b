@@ -21,6 +21,9 @@
 * Autocaulk all brush-fixed maps.
 * Make all dummied out maps available for the Skirmish/Create Server menus.
 
+* aggressor
+  * Remove "Corner" and "Electro" points for DOM. (Eschew DOM support altogether?)
+  * Change "Mortar" to "Grenade" and "Rocket Launcher At" by "Rocket Atrium".
 * am_galmevish
   * Replace MH with Battle Suit?
   * Add grates in the upper levels?
@@ -29,46 +32,102 @@
 * am_thornish
   * Relit the level.
   * Redo all the pillars.
+* am_underworks2
+  * Change destination of the understair teleport to the Depot Room.
+  * Extend floor of the Teleporter area.
+  * Slightly move the Depot Room domination point to the center. In order to balance this, move the Lightning Gun besides the Cargo car.
+  * Add a jumppad in the Depot Room to the Megahealth.
+  * Make the bots reach the Red Armor and the upper part of the Generator, which houses a DOM point and the Rocket Launcher in non-DOM modes.
+  * Add a special room for the Single-Player campaign. Make the bot start with every weapon, (including BFG, Nailgun, Chaingun and Prox) max armor and max health. ^^
+* cbctf1
+  * Fix map having a single info_player_start.
+* ce1m7
+  * Add Intermission spot.
 * ctf_compromise
   * Fix team and neutral obelisk/flag gametype properties.
 * ctf_gate1
   * Fix team and neutral obelisk/flag gametype properties.
 * ctf_inyard
   * Fix team and neutral obelisk/flag gametype properties.
-* dm4ish:
+* czest1dm
+  * Add support for Double Domination, 1FCTF and Harvester.
+  * Change Intermission spot to a better place.
+* czest1tourney
+  * Use oad_spacespire as a base?
+* czest2ctf
+  * Use oac_czest2 as a base?
+* delta
+  * Change Intermission spot to a better place.
+  * Add arrows to bases.
+  * Add Domination support.
+* dm4ish
   * Use r951 SVN version as a base.
+* dm6ish
+  * Add Intermission spot.
 * hydronex2
   * Add new weapon/item layout, hopefully better than the previous one.
   * Make all weapons and items use the new item base SFX.
-* islandctf:
+* islandctf
   * Use r951 SVN version as a base.
-* islanddm:
+* islanddm
   * Use r951 SVN version as a base.
-* kaos:
+* kaos
   * Use r951 SVN version as a base.
 * oa_bases3
   * Fix team and neutral obelisk/flag gametype properties.
-* oa_bases3cl:
+* oa_bases3cl
   * Use r951 SVN version as a base.
 * oa_bases3plus3
   * Fix team and neutral obelisk/flag gametype properties.
 * oa_bases3p3ta
   * Fix team and neutral obelisk/flag gametype properties.
+* oa_bases7
+  * Fix the Plasma Gun issue.
+  * Fix map having a single info_player_start.
 * oa_ctf2old
   * Use r951 SVN version as a base.
   * Fix team and neutral obelisk/flag gametype properties.
-* oa_dm1:
+* oa_ctf4ish
+  * Fix map having a single info_player_start.
+* oa_dm1
+  * Use oa_dm1v2 as a base?
   * Add Elimination support.
-* oa_dm3:
+  * Check for items not showing in SP.
+* oa_dm3
   * Add Elimination support.
+  * Add Intermission spot.
 * oa_dm5
+  * Use oa_dm5v2 as a base?
   * Fix problem in SP (?)
   * Bring some of the changes made in oa_dm5v2.
-* oa_dm6:
+  * Check for items not showing in SP.
+  * Add support for Domination?
+* oa_dm6
   * Use r951 SVN version as a base.
+* oa_koth1
+  * Fix the map not showing bots. (?)
+  * Check for items not showing in SP.
+* oa_koth2
+  * Change Intermission spot to a better place.
+* oa_minia
+  * Add support for Harvester?
 * oa_reptctf11
   * Fix team and neutral obelisk/flag gametype properties.
+* oa_shouse
+  * Add support for Harvester?
+  * Check for items not showing in SP.
+* oa_spirit3
+  * Add Intermission spot.
 * oasago1
   * Fix team and neutral obelisk/flag gametype properties.
-* q3dm6ish:
+* pul1ctf
+  * Fix map having a single info_player_start.
+* q3dm6ish
   * Use r951 SVN version as a base.
+* sleekgrinder
+  * Add Intermission spot.
+  * Check for items not showing in SP.
+* slimefac
+  * Add Intermission spot.
+* suspended
+  * Add Intermission spot.

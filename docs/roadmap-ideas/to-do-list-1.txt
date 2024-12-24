@@ -22,11 +22,6 @@ oa_bases3plus3		N/A
 oa_ctf2			N/A
 oa_spirit3		N/A
 ps37ctf			N/A
-cbctf1			P!!!
-oa_bases5		P!!!
-oa_bases7		P!!!
-oa_ctf4ish		P!!!
-pul1ctf			P!!!
 
 N/A = Points not available on map.
 N/P = No Problem with DD. These can run well.
@@ -53,3 +48,8 @@ aggressor	4
 islanddm	5
 am_lavaarena	3
 hydronex	3
+
+- ctf maps: CTF/1FCTF/Harv/Over/Elim/eCTF/DD support
+- short ffa maps: FFA/LMS/Tourney support
+- large ffa maps: FFA/LMS/Team/Elim support
+- differentiated maps: DOM support
