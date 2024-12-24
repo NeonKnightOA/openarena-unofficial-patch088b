@@ -29,6 +29,10 @@
   * Add grates in the upper levels?
   * Add Combat Armor and extra health in the corners?
   * Bring the area-crossing jumppad from oad_galmevish?
+* am_lavactfxl
+  * Add location names.
+* am_spacecont
+  * Add location names.
 * am_thornish
   * Relit the level.
   * Redo all the pillars.
@@ -39,95 +43,177 @@
   * Add a jumppad in the Depot Room to the Megahealth.
   * Make the bots reach the Red Armor and the upper part of the Generator, which houses a DOM point and the Rocket Launcher in non-DOM modes.
   * Add a special room for the Single-Player campaign. Make the bot start with every weapon, (including BFG, Nailgun, Chaingun and Prox) max armor and max health. ^^
+  * Add music track.
+* blitzkrieg3
+  * Add location names.
 * cbctf1
   * Fix map having a single info_player_start.
+  * Add location names.
 * ce1m7
   * Add Intermission spot.
+  * Add location names.
+  * Add proper music track.
 * ctf_compromise
   * Fix team and neutral obelisk/flag gametype properties.
+  * Add Intermission spot.
+  * Add music track.
 * ctf_gate1
   * Fix team and neutral obelisk/flag gametype properties.
+  * Add music track.
 * ctf_inyard
   * Fix team and neutral obelisk/flag gametype properties.
+  * Add Intermission spot.
+  * Add music track.
 * czest1dm
   * Add support for Double Domination, 1FCTF and Harvester.
   * Change Intermission spot to a better place.
 * czest1tourney
   * Use oad_spacespire as a base?
+  * Add Intermission spot.
+  * Add location names.
+  * Add music track.
 * czest2ctf
   * Use oac_czest2 as a base?
+  * Add location names.
 * delta
   * Change Intermission spot to a better place.
   * Add arrows to bases.
   * Add Domination support.
 * dm4ish
   * Use r951 SVN version as a base.
+  * Add Intermission spot.
+  * Add location names.
+  * Add proper music track.
 * dm6ish
   * Add Intermission spot.
+  * Add location names.
+  * Add music track.
 * hydronex2
   * Add new weapon/item layout, hopefully better than the previous one.
   * Make all weapons and items use the new item base SFX.
 * islandctf
   * Use r951 SVN version as a base.
+  * Add Intermission spot.
+  * Add location names.
+  * Add music track.
 * islanddm
   * Use r951 SVN version as a base.
+  * Add Intermission spot.
+  * Add location names.
+  * Add music track.
 * kaos
   * Use r951 SVN version as a base.
+  * Add location names.
+  * Add proper music track.
+* kaos2
+  * Add location names.
+  * Add proper music track.
+* mlctf1beta
+  * Add location names.
 * oa_bases3
   * Fix team and neutral obelisk/flag gametype properties.
+  * Add location names.
 * oa_bases3cl
   * Use r951 SVN version as a base.
+  * Add Intermission spot.
+  * Add location names.
+  * Add proper music track.
 * oa_bases3plus3
   * Fix team and neutral obelisk/flag gametype properties.
+  * Add location names.
 * oa_bases3p3ta
   * Fix team and neutral obelisk/flag gametype properties.
+  * Add location names.
 * oa_bases7
   * Fix the Plasma Gun issue.
   * Fix map having a single info_player_start.
+  * Add location names.
 * oa_ctf2old
   * Use r951 SVN version as a base.
   * Fix team and neutral obelisk/flag gametype properties.
+  * Add music track.
 * oa_ctf4ish
   * Fix map having a single info_player_start.
+  * Add Intermission spot.
 * oa_dm1
   * Use oa_dm1v2 as a base?
   * Add Elimination support.
   * Check for items not showing in SP.
+  * Add location names.
+  * Add proper music track.
+* oa_dm2
+  * Add location names.
+  * Add proper music track.
 * oa_dm3
   * Add Elimination support.
   * Add Intermission spot.
+  * Add location names.
+  * Add music track.
+* oa_dm4
+  * Add location names.
+  * Add music track.
 * oa_dm5
   * Use oa_dm5v2 as a base?
   * Fix problem in SP (?)
   * Bring some of the changes made in oa_dm5v2.
   * Check for items not showing in SP.
   * Add support for Domination?
+  * Add location names.
+  * Add proper music track.
 * oa_dm6
   * Use r951 SVN version as a base.
+  * Add location names.
+  * Add proper music track.
+* oa_dm7
+  * Add location names.
+  * Add music track.
 * oa_koth1
   * Fix the map not showing bots. (?)
   * Check for items not showing in SP.
+  * Add Intermission spot.
 * oa_koth2
   * Change Intermission spot to a better place.
+  * Add location names.
 * oa_minia
   * Add support for Harvester?
+* oa_pvomit
+  * Add location names.
+  * Add proper music track.
 * oa_reptctf11
   * Fix team and neutral obelisk/flag gametype properties.
+  * Add location names.
+  * Add music track.
+* oa_rpg3dm2
+  * Add location names.
+  * Add music track.
+* oa_shine
+  * Add location names.
+  * Add music track.
 * oa_shouse
   * Add support for Harvester?
   * Check for items not showing in SP.
-* oa_spirit3
-  * Add Intermission spot.
+  * Add location names.
 * oasago1
   * Fix team and neutral obelisk/flag gametype properties.
 * pul1ctf
   * Fix map having a single info_player_start.
+* pxlfan
+  * Add location names.
 * q3dm6ish
   * Use r951 SVN version as a base.
-* sleekgrinder
   * Add Intermission spot.
+  * Add location names.
+  * Add proper music track.
+* sleekgrinder
   * Check for items not showing in SP.
 * slimefac
-  * Add Intermission spot.
+  * Add location names.
+  * Add proper music track.
 * suspended
   * Add Intermission spot.
+  * Add location names.
+  * Add music track.
+* wrackdm17
+  * Add Intermission spot.
+  * Add location names.
+  * Add music track.
