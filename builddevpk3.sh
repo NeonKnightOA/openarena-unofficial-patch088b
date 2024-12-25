@@ -10,7 +10,7 @@ echo Compressing...
 ./zip -9r pak6-patch088b-${now}.pk3 levelshots/* -x \*svn* -x \*.map
 ./zip -9r pak6-patch088b-${now}.pk3 maps/* -x \*svn* -x \*.map
 ./zip -9r pak6-patch088b-${now}.pk3 models/* -x \*svn* -x \*.map
-#./zip -9r pak6-patch088b-${now}.pk3 music/* -x \*svn*
+./zip -9r pak6-patch088b-${now}.pk3 music/* -x \*svn*
 ./zip -9r pak6-patch088b-${now}.pk3 scripts/* -x \*svn*
 ./zip -9r pak6-patch088b-${now}.pk3 sources/* -x \*svn*
 #./zip -9r pak6-patch088b-${now}.pk3 sound/* -x \*svn*
