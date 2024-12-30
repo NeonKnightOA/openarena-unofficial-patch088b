@@ -1,0 +1,67 @@
+a1 - Release date: December 28, 2008
+- Added one more water ramp.
+- Railgun & ammo removed from sniper spot.
+- Added a 5-shot 30-sec of respawn Railgun at the sniper spot entrance.
+- Removed single central entrance and added 2 more entrances.
+- Switched places between flag/obelisk base and Rocket launcher in bases.
+- New levelshot, it now shows one of sniper spots instead of one of the flag bases.
+- Support for 1FCTF, Harvester, Overload, and CTFElimination.
+- Missionpack: Replaced Ammo Regen for Doubler, and added one more Scout & Guard, all of this in each base.
+
+a2 - Release date: January 02, 2009
+- Replaced bridges with jumppads at both sides. Those will kick you from sides to center and viceversa.
+- Waterramps enlarged to the floor.
+- Added spawn room to flag bases. These are separated by a wall from the rest of the map, so you won't suffer spawncampers while spawn there. This also means flag bases were reduced.
+- Redone boxes (these are now models, and are different boxes than the original ones) at outside area, and added some more.
+- Redone floors: now they incorporate weapon spawnspots.
+- Redone entrances to flag bases: these are now more separated.
+- Base Lights are back.
+
+a3 - Release date: January 04, 2009
+- Redone jumppads, now all of them are botdonotentered and balanced.
+- Minor structural changes to the map.
+- Added flag/obelisk bases.
+- Replaced two misplaced botclips.
+- Rehinted the map. Hopefully it don't draw all the map anymore. I should still learn how to hint & clusterportal properly my maps.
+- Removed boxes which covered ammo and prox/chain.
+
+b1 - Release date: January 24, 2009
+- Middle wall extended to all center area, plus made 3 connections between blue & red sides. One of these is for neutral items (White flag/skull generator) and the other 2 are just simple passages.
+- Added a connection between the two underwater sewers, which has a Quad Damage and a breathing pool. This Quad has a duration of 45 sec, since 15 of those secs will be inverted in getting out of the water. Cheesy
+- Added two more access to flag base from the outside area. There're now 4 ways to enter to the flag base.
+- Big, HUGE weapon & item placement changes. In the spawn room you'll find Rail and Prox, but no ammo for them. In the flag base area you'll find Rocket & Shotgun. In the two mini-houses between sniper spots and flag bases there're Grenade and Chaingun. In the original Rail place on the last Hydro2 you'll find Lightning Gun. Alongside of the sniper spot you'll find Plasma & Nailgun. Also, I've assured that ammo for weapons are a little bit far from their respective weapon spawn. You won't find Lightning ammo near Lightning gun, for example. You won't find Rail slugs near sniper spots.
+- Added two more water ramps.
+- Changed launchpads, these won't be diagonal anymore.
+- Added more 5-health, 25-health, 50-health and armor shards to map.
+- Changed Combat armor in water area for Body armor.
+- Arrows guiding to bases.
+- Minor structural changes.
+
+b2 - Release date: January 28, 2009
+- Hinting. I hope it works...
+- Weapon replacements:
+  * Spawn rooms: Replaced Railgun for Shotgun. Also added Shells & Bullets.
+  * Flag room: Replaced Rocket Launcher for Plasmagun & Shotgun for Rocket Launcher.
+  * Left entrance: (from Flag Base room) Replaced Chaingun with Lightning Gun.
+  * Right entrance: (from Flag Base room) Replaced Grenade Launcher with Railgun.
+  * Outside, behind Sniper tower: Replaced Lightning Gun with Grenade Launcher.
+  * Outside, at the left of Sniper Tower: Replaced Plasmagun with Chaingun.
+- Redistributed ammo. Mine Layer only have one ammo box, and is at the middle area in each base.
+- Deleted two 50-health items at bases, and moved the other two more forward.
+- target_locations have now their messages well done. Smiley
+- Removed 5 health-5 items in front of sniper tower.
+
+b3 - Release date: January 31, 2009
+- Added Team Items: 2x Doubler, 2x Guard, 2x Scout at both bases, plus their own spawnspots.
+- Added Kamikaze and make it cycle with Regeneration.
+- Deleted two unbalancing healths at red base.
+- Deleted one shell box and one bullet box at both spawn rooms.
+- Switched ammos: Nailbox & Beltbox near sniper tower, and Cellbox near the Megahealth and Grenadebox at the bases.
+- Added a shader which replaces moonsky.
+- Clipped middle area ceilings, to avoid camping from here.
+- Added a minor detail: two faulting arrow signals in red base.
+- Added minor details: arrows at spawn spots.
+
+final - Release date: February 06, 2009
+- Fixed water. Also rescaled its texturizing.
+- Added boxes. (I wanted them back with the map)
