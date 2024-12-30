@@ -45,7 +45,6 @@ newmenu
 newmenu2
 nki
 nkoa-newsfx
-oachydro
 oaflares
 oagfx
 oalite
