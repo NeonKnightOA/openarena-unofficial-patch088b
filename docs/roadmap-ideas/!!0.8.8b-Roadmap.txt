@@ -22,8 +22,6 @@
 * Make all dummied out maps available for the Skirmish/Create Server menus.
 * aggressor
   * Change "Mortar" to "Grenade" and "Rocket Launcher At" by "Rocket Atrium".
-* am_lavactfxl
-  * Add location names.
 * am_spacecont
   * Add location names.
 * am_thornish

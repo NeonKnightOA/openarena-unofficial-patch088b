@@ -62,6 +62,8 @@ Classic UI: https://files.poulsander.com/~poul19/public_files/oa/dev088/gamecode
   - Properly done curves at each base.
   - Added spawnrooms for Double Domination.
   - target_locations re-scrambled, fewer ones were used this time.
+  - Added info_camp on the boxes bots can jump into and botclip on those they can't.
+  - Deleted wall arrows and added floor ones.
   - Tons of minor changes.
 * am_mckinleyish2
   - Fixed team and neutral obelisk/flag gametype properties.
