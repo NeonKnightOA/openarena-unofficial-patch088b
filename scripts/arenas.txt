@@ -121,7 +121,7 @@
 	longname	"Aggressive Tendencies"
 	bots		"sorceress angelyss"
 	fraglimit	"20"
-	type		"single ffa lms tourney dom"
+	type		"single ffa lms tourney pos"
 }
 //Tier 6
 {	map		"oa_shouse"

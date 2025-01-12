@@ -15,6 +15,15 @@ Classic UI: https://files.poulsander.com/~poul19/public_files/oa/dev088/gamecode
 - Shaders evil8 and evil8_base: Used the mappatch as a base.
 
 == Map specific ==
+* aggressor
+  - Removed DOM support.
+  - Added POS support.
+  - Added .info file.
+  - Relit the level.
+  - Added weapon/item SFX.
+  - Added SFX to teleporters.
+  - Fixed some texture misalignments.
+  - Other minor changes.
 * am_galmevish
   - Uses 081am_galmevish from the Older Versions pack as a base.
   - Relit the level.
