@@ -8,7 +8,7 @@
 
 textures/nkoa-newsfx/beam
 {
-	qer_editorimage textures/nkoa-newsfx/jumppadeditor/beam.jpg
+	qer_editorimage textures/nkoa-newsfx/jumppadeditor/beam.tga
 	qer_trans 0.99
 	surfaceparm nolightmap
 	surfaceparm nonsolid
@@ -26,7 +26,7 @@ textures/nkoa-newsfx/beam
 
 textures/nkoa-newsfx/beam_dusty2
 {
-	qer_editorimage textures/nkoa-newsfx/jumppadeditor/beam_dusty2.jpg
+	qer_editorimage textures/nkoa-newsfx/jumppadeditor/beam_dusty2.tga
 	qer_trans 0.99
 	surfaceparm nolightmap
 	surfaceparm nonsolid
@@ -44,7 +44,7 @@ textures/nkoa-newsfx/beam_dusty2
 
 textures/nkoa-newsfx/beam_blue
 {
-	qer_editorimage textures/nkoa-newsfx/jumppadeditor/beam_blue.jpg
+	qer_editorimage textures/nkoa-newsfx/jumppadeditor/beam_blue.tga
 	qer_trans 0.99
 	surfaceparm nolightmap
 	surfaceparm nonsolid
@@ -62,7 +62,7 @@ textures/nkoa-newsfx/beam_blue
 
 textures/nkoa-newsfx/beam_red
 {
-	qer_editorimage textures/nkoa-newsfx/jumppadeditor/beam_red.jpg
+	qer_editorimage textures/nkoa-newsfx/jumppadeditor/beam_red.tga
 	qer_trans 0.99
 	surfaceparm nolightmap
 	surfaceparm nonsolid
@@ -80,7 +80,7 @@ textures/nkoa-newsfx/beam_red
 
 textures/nkoa-newsfx/beam_waterlight2
 {
-	qer_editorimage textures/nkoa-newsfx/jumppadeditor/beam_waterlight2.jpg
+	qer_editorimage textures/nkoa-newsfx/jumppadeditor/beam_waterlight2.tga
 	qer_trans 0.99
 	surfaceparm nolightmap
 	surfaceparm nonsolid
@@ -98,7 +98,7 @@ textures/nkoa-newsfx/beam_waterlight2
 
 textures/nkoa-newsfx/lavabeam
 {
-	qer_editorimage textures/nkoa-newsfx/jumppadeditor/lavabeam.jpg
+	qer_editorimage textures/nkoa-newsfx/jumppadeditor/lavabeam.tga
 	qer_trans 0.99
 	surfaceparm nolightmap
 	surfaceparm nonsolid

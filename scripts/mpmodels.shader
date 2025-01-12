@@ -234,7 +234,7 @@ dbStrip
 
 models/powerups/RuneScout
 {
-	qer_editorImage textures/effects/tinfx2c.tga
+	qer_editorImage textures/effects/effectseditor/runeScout.tga
 }
 
 runeScout
@@ -248,7 +248,7 @@ runeScout
 
 models/powerups/RuneAmreg
 {
-	qer_editorImage textures/effects/tinfx2b.tga
+	qer_editorImage textures/effects/effectseditor/runeAmreg.tga
 }
 
 runeAmreg
@@ -262,7 +262,7 @@ runeAmreg
 
 models/powerups/RuneGuard
 {
-	qer_editorImage textures/effects/tinfx2c.tga
+	qer_editorImage textures/effects/effectseditor/runeGuard.tga
 }
 
 runeGuard
@@ -276,7 +276,7 @@ runeGuard
 
 models/powerups/RuneDoubler
 {
-	qer_editorImage textures/effects/tinfx2c.tga
+	qer_editorImage textures/effects/effectseditor/runeDoubler.tga
 }
 
 runeDoubler
