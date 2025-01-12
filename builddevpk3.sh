@@ -3,7 +3,7 @@
 #and it is in your path.  If zip is not installed
 #this script will not work.  Please check your distro's
 #documentation on how to install the zip package.
-now=$(date +"%m_%d_%Y")
+now=$(date +"%Y_%m_%d")
 
 echo Compressing...
 ./zip -9r pak6-patch088b-${now}.pk3 docs/* -x \*svn* -x \*.map
