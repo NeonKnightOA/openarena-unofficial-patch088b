@@ -155,7 +155,7 @@ textures/evil8_lights/e8btrimlight
 
 textures/ctf/blue_telep
 {
-	qer_trans 0.5
+	//qer_trans 0.99
 	q3map_lightimage textures/effects/jumpcircblue.tga
 	surfaceparm noimpact
 	surfaceparm nolightmap
@@ -184,7 +184,7 @@ textures/ctf/blue_telep
 
 textures/ctf/red_telep
 {
-	qer_trans 0.5
+	//qer_trans 0.99
 	q3map_lightimage textures/effects/jumpcircred.tga
 	surfaceparm noimpact
 	surfaceparm nolightmap

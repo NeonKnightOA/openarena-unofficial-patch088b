@@ -1,6 +1,6 @@
 models/dpoints/WhiteDomSkin
 {
-	qer_editorImage textures/effects/tinfx.tga
+	qer_editorImage textures/effects/effectseditor/dompoint.tga
 }
 
 WhiteDomSkin
