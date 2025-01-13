@@ -31,9 +31,6 @@
   * Add music track.
 * blitzkrieg3
   * Add location names.
-* cbctf1
-  * Fix map having a single info_player_start.
-  * Add location names.
 * ce1m7
   * Add Intermission spot.
   * Add location names.
