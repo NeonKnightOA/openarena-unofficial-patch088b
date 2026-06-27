@@ -1,0 +1,357 @@
+== General ==
+* Fix shader display in-game.
+* Add remaining music tracks.
+
+== To-Do list (move to Changelog when done) ==
+* Make all the brush-fixed maps use the newer jumppad/teleporter/item base SFX.
+* Make all maps have message, author and music listed.
+* Recompile all fixed maps using NRC Q3 Final settings.
+* Give all fixed maps new levelshots. (Ensure that all maps have info_player_intermission)
+* Replace all instances of common/nodraw with common/nodrawnonsolid.
+* Replace all instances of info_player_start with info_player_deathmatch with spawnflags "1" (Initial).
+* Redo all target_locations.
+* Make .info files for all maps.
+* Fix and recompile all .ase mapmodels.
+* Find and fix all progressive JPEGs.
+* Replace old 0.8.8 CTF banners with newer ones featuring the newer OA logo.
+* Reorganize shaders, delete duplicated shaders.
+* Lower pickup locations to floor level.
+* Check all maps and properly assign them their respective gamemodes.
+** Make all maps with the neutral flag be choosable for Possession.
+* Autocaulk all brush-fixed maps.
+* Make all dummied out maps available for the Skirmish/Create Server menus.
+* Add all maps that support 2on2 matches onwards to Team Deathmatch (TDM 2on2 is a thing after all)
+* Make all CTF maps be supported for Overload, Elimination, eCTF and DD.
+* Make all CTF maps with a proper middle area to support 1FCTF and Harvester.
+* Make all short FFA maps support LMS and Tournament.
+* Make all large FFA maps support TDM and Elimination.
+* Make maps with differentiated areas support Domination.
+
+== am_galmevish ==
+* Idea: Add grates in the upper levels? (Possibly)
+* Idea: Replace MH with Battle Suit? (Unlikely)
+* Idea: Add Combat Armor and extra health in the corners? (Unlikely)
+* Idea: Bring the area-crossing jumppad from oad_galmevish? (Possibly)
+
+== am_spacecont ==
+* Add location names.
+
+== am_thornish ==
+* Relit the level.
+* Redo all the pillars.
+
+== am_underworks2 ==
+* Add music track.
+* Idea: Change destination of the understair teleport to the Depot Room.
+* Idea: Extend floor of the Teleporter area.
+* Idea: Slightly move the Depot Room domination point to the center. In order to balance this, move the Lightning Gun besides the Cargo car.
+* Idea: Add a jumppad in the Depot Room to the Megahealth.
+* Idea: Make the bots reach the Red Armor and the upper part of the Generator, which houses a DOM point and the Rocket Launcher in non-DOM modes.
+* Idea: Add a special room for the Single-Player campaign. Make the bot start with every weapon, (including BFG, Nailgun, Chaingun and Prox) max armor and max health. ^^
+
+== blitzkrieg3 ==
+* Add location names.
+
+== ce1m7 ==
+* Add Intermission spot.
+* Add location names.
+* Add proper music track.
+
+== ctf_compromise ==
+* Fix team and neutral obelisk/flag gametype properties.
+* Add Intermission spot.
+* Add music track.
+
+== ctf_gate1 ==
+* Fix team and neutral obelisk/flag gametype properties.
+* Add music track.
+* Idea: Add support for One Flag CTF and Harvester.
+
+== ctf_inyard ==
+* Fix team and neutral obelisk/flag gametype properties.
+* Add Intermission spot.
+* Add music track.
+
+== czest1tourney ==
+* Add Intermission spot.
+* Add location names.
+* Add music track.
+
+== czest1dm ==
+* Idea: Add support for Double Domination, 1FCTF and Harvester.
+* Idea: Change Intermission spot to a better place.
+
+== czest1tourney ==
+* Idea: Use oad_spacespire as a base.
+
+== czest2ctf ==
+* Add location names.
+* Idea: Add oac_czest2 as czest2ctfxl.
+
+== delta ==
+* Add arrows to bases.
+* Idea: Change Intermission spot to a better place.
+* Idea: Add Domination support.
+* Idea: Add support for One Flag CTF and Harvester.
+* Idea: Add support for Double Domination.
+
+== dm4ish ==
+* Use r951 SVN version as a base.
+* Add Intermission spot.
+* Add location names.
+* Add proper music track.
+
+== dm6ish ==
+* Add Intermission spot.
+* Add location names.
+* Add music track.
+
+== fan ==
+* Add nodrop in the lava pit.
+* Rework the middle fan so it can be stepped on easily.
+
+== hydronex ==
+* Idea: Add new weapon/item layout, hopefully better than the previous one.
+
+== islandctf ==
+* Use r951 SVN version as a base.
+* Add Intermission spot.
+* Add location names.
+* Add music track.
+
+== islanddm ==
+* Use r951 SVN version as a base.
+* Add Intermission spot.
+* Add location names.
+* Add music track.
+
+== kaos ==
+* Use r951 SVN version as a base.
+* Add location names.
+* Add proper music track.
+
+== kaos2 ==
+* Add location names.
+* Add proper music track.
+
+== mlctf1beta ==
+* Add location names.
+
+== oa_bases3 ==
+* Fix team and neutral obelisk/flag gametype properties.
+* Add location names.
+* Idea: Add support for One Flag CTF and Harvester.
+* Idea: Add support for Double Domination.
+
+== oa_bases3cl ==
+* Use r951 SVN version as a base.
+* Add Intermission spot.
+* Add location names.
+* Add proper music track.
+* Idea: Add support for One Flag CTF and Harvester.
+* Idea: Add support for Double Domination.
+
+== oa_bases3plus3 ==
+* Fix team and neutral obelisk/flag gametype properties.
+* Add location names.
+* Idea: Add support for Double Domination.
+
+== oa_bases3p3ta ==
+* Fix team and neutral obelisk/flag gametype properties.
+* Add location names.
+
+== oa_bases7 ==
+* Fix the Plasma Gun issue.
+* Fix map having a single info_player_start.
+* Add location names.
+* Idea: Add support for One Flag CTF and Harvester.
+
+== oa_ctf2 ==
+* Idea: Add support for One Flag CTF and Harvester.
+* Idea: Add support for Double Domination.
+
+== oa_ctf2old ==
+* Use r951 SVN version as a base.
+* Fix team and neutral obelisk/flag gametype properties.
+* Add music track.
+* Idea: Add support for One Flag CTF and Harvester.
+
+== oa_ctf4ish ==
+* Fix map having a single info_player_start.
+* Add Intermission spot.
+* Idea: Add support for One Flag CTF and Harvester.
+
+== oa_dm1 ==
+* Check for items not showing in SP.
+* Add location names.
+* Add proper music track.
+* Idea: Use oa_dm1v2 as a base.
+* Idea: Add Elimination support.
+
+== oa_dm2 ==
+* Add location names.
+* Add proper music track.
+
+== oa_dm3 ==
+* Add Intermission spot.
+* Add location names.
+* Add music track.
+* Idea: Add Elimination support.
+
+== oa_dm4 ==
+* Add location names.
+* Add music track.
+
+== oa_dm5 ==
+* Check for items not showing in SP.
+* Add location names.
+* Add proper music track.
+* Idea: Use oa_dm5v2 as a base.
+* Idea: Bring some of the changes made in oa_dm5v2.
+* Idea: Add support for Domination.
+
+== oa_dm6 ==
+* Use r951 SVN version as a base.
+* Add location names.
+* Add proper music track.
+
+== oa_dm7 ==
+* Add location names.
+* Add music track.
+
+== oa_koth1 ==
+* Fix the map not showing bots. (?)
+* Check for items not showing in SP.
+* Add Intermission spot.
+
+== oa_koth2 ==
+* Add location names.
+* Idea: Change Intermission spot to a better place.
+
+== oa_minia ==
+* Idea: Add support for Harvester.
+
+== oa_pvomit ==
+* Add location names.
+* Add proper music track.
+
+== oa_reptctf11 ==
+* Fix team and neutral obelisk/flag gametype properties.
+* Add location names.
+* Add music track.
+
+== oa_rpg3dm2 ==
+* Add location names.
+* Add music track.
+
+== oa_shine ==
+* Add location names.
+* Add music track.
+
+== oa_shouse ==
+* Check for items not showing in SP.
+* Add location names.
+* Idea: Add support for Harvester.
+
+== oa_spirit3 ==
+* Idea: Add support for One Flag CTF and Harvester.
+* Idea: Add support for Double Domination.
+
+== oasago1 ==
+* Fix team and neutral obelisk/flag gametype properties.
+
+== pul1ctf ==
+* Fix map having a single info_player_start.
+
+== pxlfan ==
+* Add location names.
+
+== q3dm6ish ==
+* Use r951 SVN version as a base. (Or maybe replace with q3dm6ishv3)
+* Add Intermission spot.
+* Add location names.
+* Add proper music track.
+* Idea: Add Double Domination support.
+
+== sleekgrinder ==
+* Check for items not showing in SP.
+
+== slimefac ==
+* Add location names.
+* Add proper music track.
+
+== suspended ==
+* Add Intermission spot.
+* Add location names.
+* Add music track.
+
+== wrackdm17 ==
+* Add Intermission spot.
+* Add location names.
+* Add music track.
+
+== Ideas ==
+* New maps:
+  * Check Akom, GoD and Moixie's map libraries.
+    * god_2fort
+    * god_athmosfear
+    * god_dam
+    * god_infinitum
+    * god_oasago2
+    * god_oasago2y
+    * god_octagon
+    * god_openarena
+    * god_ps37ctf
+    * god_race
+    * god_racetest
+    * god_space
+    * god_speed
+    * god_speedyctf
+    * god_well
+    * oa_ctf4ishy
+    * ps37ctfy
+    * pul1ctfy
+    * mx1ctf1
+    * mx1ctf2
+    * mx1ctf5
+    * mx1ctf5_t3
+    * mx1ctf8
+    * mx2ctf1
+    * mx2ctf1_t3
+    * mx2ctf2
+    * mx2ctf5
+    * mx2dm1
+    * mx1lab (insomnia)
+    * mx3ctf1
+    * mx3ctf2
+    * mx3ctf2_t3
+    * mx4ctf2
+    * mx4dm1
+    * mx4dm1_alt1
+    * mxctf6
+    * oa_akomctf2
+    * oa_akomctf4
+    * oa_akomctf5
+    * oa_bloodrun
+    * oa_cargo
+    * oa_gateway
+    * oa_suicizer
+    * oa_torqc
+  * aggressor+++
+  * am_icyhell (which version to use?)
+  * am_mckinleyish (use oad_mckinley as a base)
+  * blitzkrieg2 (use oad_oldkrieg as a base)
+  * hntourney1 (use oad_hypern1v1 as a base)
+  * hydronex3 (use oac_hydro3 as a base)
+  * oa_bod (use oad_bod as a base)
+  * oa_ctf4ish2
+  * oa_nemesis (use oad_nemesis as a base)
+  * oa_reptctf3 (use oac_paintemple as a base)
+  * oa_rpg3dm1 (use oad_rpg1 as a base)
+  * oa_uzul3 (use oad_uzul3 as a base)
+  * oa_spirit3t1 (use oad_kprejudice as a base)
+  * q3dm6ishv3 (use oad_castlegrnd as a base)
+  * q3dm6ish_ctf (use oac_q3dm6ctf as a base)
+  * q3tourney6ish
+  * tourney6ish_ctf
+  * oat_tutorial1
