@@ -114,6 +114,11 @@ Classic UI: https://files.poulsander.com/~poul19/public_files/oa/dev088/gamecode
   - More minor changes.
 * fan
   - Uses 071fan from the Older Versions pack as a base.
+  - Lower floor, pit and walls all redone.
+  - Added item/weapon bases.
+  - Added jumppads in the upper floor, they reach the Quad.
+  - Added Personal Teleporter on the fan top.
+  - Minor cosmetic level changes.
 * hydronex
   - Uses 071hydronex from the Older Versions pack as a base.
   - Fixed team and neutral obelisk/flag gametype properties.

@@ -665,16 +665,16 @@ textures/evil8_trim/e8lighttrim_b_glow
 
 textures/evil8_fx/e8jumpspawn02
 {
-	q3map_lightimage textures/evil8_fx/e8jumpspawn02_fx.tga
+	q3map_lightimage textures/evil8_fx/e8jumpspawn02_fx.jpg
 	surfaceparm metalsteps
 	q3map_surfacelight 100
 	{
-		map textures/evil8_fx/e8jumpspawn02_fx.tga
+		map textures/evil8_fx/e8jumpspawn02_fx.jpg
 		rgbGen identity
 		tcMod rotate 760
 	}
 	{
-		map textures/evil8_fx/e8jumpspawn02.tga
+		map textures/evil8_fx/e8jumpspawn02.jpg
 		blendfunc blend
 		rgbGen identity
 	}
@@ -688,16 +688,16 @@ textures/evil8_fx/e8jumpspawn02
 
 textures/evil8_fx/e8jumpspawn02b
 {
-	q3map_lightimage textures/evil8_fx/e8jumpspawn02_fx.tga
+	q3map_lightimage textures/evil8_fx/e8jumpspawn02_fx.jpg
 	surfaceparm metalsteps
 	q3map_surfacelight 100
 	{
-		map textures/evil8_fx/e8jumpspawn02_fx.tga
+		map textures/evil8_fx/e8jumpspawn02_fx.jpg
 		rgbGen identity
 		tcMod rotate 760
 	}
 	{
-		map textures/evil8_fx/e8jumpspawn02b.tga
+		map textures/evil8_fx/e8jumpspawn02b.jpg
 		blendfunc blend
 		rgbGen identity
 	}
