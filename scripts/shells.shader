@@ -180,16 +180,16 @@ powerups/quadWeapon
 }
 
 /*
-powerups/quadWeapong
-{
+	powerups/quadWeapong
+	{
 	deformVertexes wave 100 sin 1 0 0 0 
 	{
-		map textures/oafx/quadshell.tga
-		blendfunc add
-		tcMod rotate 75
-		tcGen environment 
+	map textures/oafx/quadshell.tga
+	blendfunc add
+	tcMod rotate 75
+	tcGen environment 
 	}
-}
+	}
 */
 
 powerups/battleSuit

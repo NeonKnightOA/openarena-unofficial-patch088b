@@ -1,3 +1,18 @@
+// blitzkrieg3 fog
+textures/amnk_misc/blitzkriegfog
+{
+	qer_editorimage textures/sfx/fogeditorimages/hellfog.jpg
+	qer_trans 0.125
+	qer_nocarve
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nolightmap
+	surfaceparm fog
+	q3map_globaltexture
+	cull none
+	fogparms ( 1 0 0 ) 2048
+}
+
 textures/amnk_misc/teleporternoise
 {
 	q3map_lightimage textures/amnk_misc/teleporternoise
@@ -29,20 +44,5 @@ textures/amnk_misc/teleporternoise
 		tcMod rotate -3
 		tcMod turb 0 4 0 0.01
 	}
-}
-
-// blitzkrieg3 fog
-textures/amnk_misc/blitzkriegfog
-{
-	qer_editorimage textures/sfx/fogeditorimages/hellfog.jpg
-	qer_trans 0.125
-	qer_nocarve
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm nolightmap
-	surfaceparm fog
-	q3map_globaltexture
-	cull none
-	fogparms ( 1 0 0 ) 2048
 }
 

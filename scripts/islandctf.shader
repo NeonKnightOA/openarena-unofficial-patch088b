@@ -299,6 +299,31 @@ textures/islandctf/terrain_2to4
 	}
 }
 
+textures/islandctf/terrain_2to4_vertical1
+{
+	qer_editorimage textures/stone/pjrock21.jpg
+	q3map_texturesize 512 512
+	q3map_nonPlanar
+	q3map_shadeAngle 120
+	//	q3map_tcGen ivector ( 0 256 0 ) ( 256 0 0 )
+	q3map_tcGen ivector ( 0 0 512 ) ( 512 512 0 )
+	{
+		map textures/stone/pjrock16.jpg
+		rgbGen identity
+	}
+	{
+		map textures/stone/pjrock21.jpg
+		alphaGen vertex
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_SRC_COLOR
+		tcGen lightmap
+		RgbGen identity
+	}
+}
+
 textures/islandctf/terrain_3to4
 {
 	q3map_texturesize 512 512
