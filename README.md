@@ -4,4 +4,6 @@ This is an asset-only patch aiming to fix errors on maps and game assets and pos
 
 Also, if the title wasn't enough indication, this patch, despite its aim, is **non officially endorsed**. You shouldn't worry about dangers, though. It's all safe.
 
-The changelog and roadmap for this patch is located in the Docs folder.
+Use builddevpk3.sh to generate a test .pk3 and drop said .pk3 in the baseoa folder, e.g. `OpenArena/baseoa`. Or, if you're that kind of paranoid, drop it in a new folder inside the OA folder, e.g. `OpenArena/patchtest`.
+
+The changelog and roadmap for this patch is located in the `Docs` folder.
