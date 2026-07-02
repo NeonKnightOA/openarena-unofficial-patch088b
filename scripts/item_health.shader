@@ -1,8 +1,3 @@
-models/powerups/health/smallCross
-{
-	qer_editorImage textures/oafx/greenchrm.tga
-}
-
 smallCross
 {
 	{
@@ -16,11 +11,6 @@ smallCross
 		tcMod rotate 54
 		tcGen environment 
 	}
-}
-
-models/powerups/health/mediumCross
-{
-	qer_editorImage textures/effects/envmapligh.tga
 }
 
 mediumCross
@@ -38,11 +28,6 @@ mediumCross
 	}
 }
 
-models/powerups/health/largeCross
-{
-	qer_editorImage textures/oafx/orangechrm.tga
-}
-
 largeCross
 {
 	{
@@ -56,11 +41,6 @@ largeCross
 		tcMod rotate 54
 		tcGen environment 
 	}
-}
-
-models/powerups/health/megaCross
-{
-	qer_editorImage textures/effects/envmapblue2.tga
 }
 
 megaCross

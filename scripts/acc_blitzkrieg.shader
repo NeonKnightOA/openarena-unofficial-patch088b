@@ -1,1 +1,1 @@
-﻿// Dummied out for your convenience.
+// Dummied out for your convenience.

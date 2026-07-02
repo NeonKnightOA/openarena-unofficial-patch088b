@@ -1,22 +1,3 @@
-//eh
-sprites/friend
-{
-	nomipmaps
-	{
-		map sprites/friend1.tga
-		blendfunc blend
-	}
-}
-
-sprites/foe
-{
-	nomipmaps
-	{
-		map sprites/foe2.tga
-		blendfunc blend
-	}
-}
-
 models/flags/b_flag
 {
 	cull disable

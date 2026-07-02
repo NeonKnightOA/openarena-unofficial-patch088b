@@ -1,141 +1,550 @@
-textures/fogs/fogyou
+// Black fogs: 0% blue + 0% green + 0% red
+
+textures/oa_fogs/fog-black-025
 {
-	qer_trans 0.666
-	qer_editorimage textures/development/fog/fog-green.jpg
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
 	surfaceparm nolightmap
 	cull disable
-	fogparms ( 0.458824 0.862745 0.411765 ) 666
-}
-
-textures/fogs/fogoff
-{
-	qer_trans 0.666
-	qer_editorimage textures/development/fog/fog-green.jpg
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm fog
-	surfaceparm nolightmap
-	cull disable
-	fogparms ( 0.458824 0.862745 0.411765 ) 666
-	{
-		map textures/liquids/kc_fogcloud3.tga
-		blendfunc filter
-		tcMod scroll 0.3 0.2
-	}
-	{
-		map textures/liquids/kc_fogcloud3.tga
-		blendfunc filter
-		tcMod scroll -0.23 -0.3
-	}
-}
-
-textures/sfx/hellfog_mini_dm10
-{
-	qer_trans 0.3
-	qer_editorimage textures/development/fog/fog-green.jpg
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm fog
-	surfaceparm nolightmap
-	cull disable
-	fogparms ( 0.458824 0.862745 0.411765 ) 300
-	
-	{
-		map textures/liquids/kc_fogcloud3.tga
-		blendfunc filter
-		tcMod turb .01 .5 0 .05
-	}
-	{
-		map textures/liquids/kc_fogcloud3.tga
-		blendfunc filter
-		tcMod scroll -.02 .02
-	}
-}
-
-textures/sfx/xblackfog
-{
-	qer_trans 0.5
+	qer_trans 0.20
 	qer_editorimage textures/development/fog/fog-black.jpg
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm fog
-	surfaceparm nomarks
-	cull disable
-	fogparms ( 0.05 0.05 0.05 ) 500
+	fogparms ( 0.0 0.0 0.0 ) 800
 }
 
-textures/fogs/fog_orange
+textures/oa_fogs/fog-black-050
 {
-	qer_trans 0.512
-	qer_editorimage textures/development/fog/fog-orange.jpg
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
 	surfaceparm nolightmap
 	cull disable
-	fogparms ( 0.5 0.2 0.0 ) 512
-	{
-		map textures/liquids/kc_fogcloud3.tga
-		blendfunc filter
-		tcMod turb 1 -0.3 0 0.07
-		tcMod scale 0.2 0.2
-	}
-}
-
-textures/sfx2/ouchfog
-{
-	qer_trans 0.05
-	qer_editorimage textures/development/fog/fog-red.jpg
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm fog
-	surfaceparm nolightmap
-	q3map_globaltexture
-	cull none
-	fogparms ( 1 0 0 ) 50
-	{
-		map textures/skies/s2.tga
-		blendfunc filter
-		tcmod scale 0.4 0.4
-		tcmod turb .01 .5 0 .05
-	}
-}
-
-textures/sfx2/dist_fog
-{
-	qer_trans 0.256
+	qer_trans 0.40
 	qer_editorimage textures/development/fog/fog-black.jpg
+	fogparms ( 0.0 0.0 0.0 ) 600
+}
+
+textures/oa_fogs/fog-black-075
+{
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
 	surfaceparm nolightmap
-	q3map_globaltexture
-	cull none
-	fogparms ( .05 .04 .03 ) 256
+	cull disable
+	qer_trans 0.60
+	qer_editorimage textures/development/fog/fog-black.jpg
+	fogparms ( 0.0 0.0 0.0 ) 400
 }
 
-textures/sfx/xnotsodensegreyfog
+textures/oa_fogs/fog-black-100
 {
-	qer_trans 0.6
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.80
+	qer_editorimage textures/development/fog/fog-black.jpg
+	fogparms ( 0.0 0.0 0.0 ) 200
+}
+//---------------------------------------------------------------
+// Blue fogs: 100% blue
+
+textures/oa_fogs/fog-blue-025
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.20
+	qer_editorimage textures/development/fog/fog-blue.jpg
+	fogparms ( 0.0 0.0 1.0 ) 800
+}
+
+textures/oa_fogs/fog-blue-050
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.40
+	qer_editorimage textures/development/fog/fog-blue.jpg
+	fogparms ( 0.0 0.0 1.0 ) 600
+}
+
+textures/oa_fogs/fog-blue-075
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.60
+	qer_editorimage textures/development/fog/fog-blue.jpg
+	fogparms ( 0.0 0.0 1.0 ) 400
+}
+
+textures/oa_fogs/fog-blue-100
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.80
+	qer_editorimage textures/development/fog/fog-blue.jpg
+	fogparms ( 0.0 0.0 1.0 ) 200
+}
+//---------------------------------------------------------------
+// Brown fogs: 50% green + 100% red
+
+textures/oa_fogs/fog-brown-025
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.20
+	qer_editorimage textures/development/fog/fog-brown.jpg
+	fogparms ( 1.0 0.5 0.0 ) 800
+}
+
+textures/oa_fogs/fog-brown-050
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.40
+	qer_editorimage textures/development/fog/fog-brown.jpg
+	fogparms ( 1.0 0.5 0.0 ) 600
+}
+
+textures/oa_fogs/fog-brown-075
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.60
+	qer_editorimage textures/development/fog/fog-brown.jpg
+	fogparms ( 1.0 0.5 0.0 ) 400
+}
+
+textures/oa_fogs/fog-brown-100
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.80
+	qer_editorimage textures/development/fog/fog-brown.jpg
+	fogparms ( 1.0 0.5 0.0 ) 200
+}
+//---------------------------------------------------------------
+// Dark Yellow fogs: 50% red + 50% green
+
+textures/oa_fogs/fog-darkyellow-025
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.20
+	qer_editorimage textures/development/fog/fog-darkyellow.jpg
+	fogparms ( 0.5 0.5 0.0 ) 800
+}
+
+textures/oa_fogs/fog-darkyellow-050
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.40
+	qer_editorimage textures/development/fog/fog-darkyellow.jpg
+	fogparms ( 0.5 0.5 0.0 ) 600
+}
+
+textures/oa_fogs/fog-darkyellow-075
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.60
+	qer_editorimage textures/development/fog/fog-darkyellow.jpg
+	fogparms ( 0.5 0.5 0.0 ) 400
+}
+
+textures/oa_fogs/fog-darkyellow-100
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.80
+	qer_editorimage textures/development/fog/fog-darkyellow.jpg
+	fogparms ( 0.5 0.5 0.0 ) 200
+}
+//---------------------------------------------------------------
+// Green fogs: 100% green
+
+textures/oa_fogs/fog-green-025
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.20
+	qer_editorimage textures/development/fog/fog-green.jpg
+	fogparms ( 0.0 1.0 0.0 ) 800
+}
+
+textures/oa_fogs/fog-green-050
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.40
+	qer_editorimage textures/development/fog/fog-green.jpg
+	fogparms ( 0.0 1.0 0.0 ) 600
+}
+
+textures/oa_fogs/fog-green-075
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.60
+	qer_editorimage textures/development/fog/fog-green.jpg
+	fogparms ( 0.0 1.0 0.0 ) 400
+}
+
+textures/oa_fogs/fog-green-100
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.80
+	qer_editorimage textures/development/fog/fog-green.jpg
+	fogparms ( 0.0 1.0 0.0 ) 200
+}
+//---------------------------------------------------------------
+// Grey fogs: 50% blue + 50% green + 50% red
+
+textures/oa_fogs/fog-grey-025
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.20
 	qer_editorimage textures/development/fog/fog-grey.jpg
+	fogparms ( 0.5 0.5 0.5 ) 800
+}
+
+textures/oa_fogs/fog-grey-050
+{
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm fog
-	surfaceparm nomarks
+	surfaceparm nolightmap
 	cull disable
-	fogparms ( 0.4784 0.4784 0.4784 ) 600
-	{
-		map textures/liquids/kc_fogcloud3.tga
-		blendfunc filter
-		tcMod turb .01 .5 0 .05
-	}
-	{
-		map textures/liquids/kc_fogcloud3.tga
-		blendfunc filter
-		tcMod scroll -.02 .02
-	}
+	qer_trans 0.40
+	qer_editorimage textures/development/fog/fog-grey.jpg
+	fogparms ( 0.5 0.5 0.5 ) 600
 }
 
+textures/oa_fogs/fog-grey-075
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.60
+	qer_editorimage textures/development/fog/fog-grey.jpg
+	fogparms ( 0.5 0.5 0.5 ) 400
+}
+
+textures/oa_fogs/fog-grey-100
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.80
+	qer_editorimage textures/development/fog/fog-grey.jpg
+	fogparms ( 0.5 0.5 0.5 ) 200
+}
+//---------------------------------------------------------------
+// Light Blue fogs: 100% blue + 50% green + 50% red
+
+textures/oa_fogs/fog-lightblue-025
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.20
+	qer_editorimage textures/development/fog/fog-lightblue.jpg
+	fogparms ( 0.5 0.5 1.0 ) 800
+}
+
+textures/oa_fogs/fog-lightblue-050
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.40
+	qer_editorimage textures/development/fog/fog-lightblue.jpg
+	fogparms ( 0.5 0.5 1.0 ) 600
+}
+
+textures/oa_fogs/fog-lightblue-075
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.60
+	qer_editorimage textures/development/fog/fog-lightblue.jpg
+	fogparms ( 0.5 0.5 1.0 ) 400
+}
+
+textures/oa_fogs/fog-lightblue-100
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.80
+	qer_editorimage textures/development/fog/fog-lightblue.jpg
+	fogparms ( 0.5 0.5 1.0 ) 200
+}
+//---------------------------------------------------------------
+// Orange fogs: 100% red + 50% yellow
+
+textures/oa_fogs/fog-orange-025
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.20
+	qer_editorimage textures/development/fog/fog-orange.jpg
+	fogparms ( 1.0 0.5 0.0 ) 800
+}
+
+textures/oa_fogs/fog-orange-050
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.40
+	qer_editorimage textures/development/fog/fog-orange.jpg
+	fogparms ( 1.0 0.5 0.0 ) 600
+}
+
+textures/oa_fogs/fog-orange-075
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.60
+	qer_editorimage textures/development/fog/fog-orange.jpg
+	fogparms ( 1.0 0.5 0.0 ) 400
+}
+
+textures/oa_fogs/fog-orange-100
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.80
+	qer_editorimage textures/development/fog/fog-orange.jpg
+	fogparms ( 1.0 0.5 0.0 ) 200
+}
+//---------------------------------------------------------------
+// Red fogs: 100% red
+
+textures/oa_fogs/fog-red-025
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.20
+	qer_editorimage textures/development/fog/fog-red.jpg
+	fogparms ( 1.0 0.0 0.0 ) 800
+}
+
+textures/oa_fogs/fog-red-050
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.40
+	qer_editorimage textures/development/fog/fog-red.jpg
+	fogparms ( 1.0 0.0 0.0 ) 600
+}
+
+textures/oa_fogs/fog-red-075
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.60
+	qer_editorimage textures/development/fog/fog-red.jpg
+	fogparms ( 1.0 0.0 0.0 ) 400
+}
+
+textures/oa_fogs/fog-red-100
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.80
+	qer_editorimage textures/development/fog/fog-red.jpg
+	fogparms ( 1.0 0.0 0.0 ) 200
+}
+//---------------------------------------------------------------
+// White fogs: 100% blue + 100% green + 100% red
+
+textures/oa_fogs/fog-white-025
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.20
+	qer_editorimage textures/development/fog/fog-white.jpg
+	fogparms ( 1.0 1.0 1.0 ) 800
+}
+
+textures/oa_fogs/fog-white-050
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.40
+	qer_editorimage textures/development/fog/fog-white.jpg
+	fogparms ( 1.0 1.0 1.0 ) 600
+}
+
+textures/oa_fogs/fog-white-075
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.60
+	qer_editorimage textures/development/fog/fog-white.jpg
+	fogparms ( 1.0 1.0 1.0 ) 400
+}
+
+textures/oa_fogs/fog-white-100
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.80
+	qer_editorimage textures/development/fog/fog-white.jpg
+	fogparms ( 1.0 1.0 1.0 ) 200
+}
+//---------------------------------------------------------------
+// Yellow fogs: 100% red + 100% green
+
+textures/oa_fogs/fog-yellow-025
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.20
+	qer_editorimage textures/development/fog/fog-yellow.jpg
+	fogparms ( 1.0 1.0 0.0 ) 800
+}
+
+textures/oa_fogs/fog-yellow-050
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.40
+	qer_editorimage textures/development/fog/fog-yellow.jpg
+	fogparms ( 1.0 1.0 0.0 ) 600
+}
+
+textures/oa_fogs/fog-yellow-075
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.60
+	qer_editorimage textures/development/fog/fog-yellow.jpg
+	fogparms ( 1.0 1.0 0.0 ) 400
+}
+
+textures/oa_fogs/fog-yellow-100
+{
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	qer_trans 0.80
+	qer_editorimage textures/development/fog/fog-yellow.jpg
+	fogparms ( 1.0 1.0 0.0 ) 200
+}
+//---------------------------------------------------------------

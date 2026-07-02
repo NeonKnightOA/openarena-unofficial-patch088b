@@ -285,6 +285,24 @@ textures/base_wall/bluemetalsupport2ftv
 	}
 }
 
+textures/base_wall/c_met5_
+{
+	qer_editorImage textures/base_wall/c_met5_2.tga
+	{
+		map $lightmap 
+		tcGen lightmap 
+	}
+	{
+		map textures/base_wall/c_met5_2.tga
+	}
+	{
+		map textures/detail/d_conc.tga
+		blendfunc gl_dst_color gl_src_color
+		tcMod scale 4 4
+		detail
+	}
+}
+
 textures/base_wall/chrome_metal
 {
 	qer_editorimage textures/base_wall/chrome_metal.tga
@@ -446,6 +464,25 @@ textures/base_wall/comp3b_dark
 	}
 	
 }   
+
+textures/base_wall/concrete
+{
+	{
+		map textures/base_wall/concrete.tga
+		rgbGen identity
+	}
+	{
+		map $lightmap 
+		blendfunc filter
+		rgbGen identity
+		tcGen lightmap 
+	}
+	{
+		map gfx/fx/detail/d_conc.tga
+		blendfunc gl_dst_color gl_src_color
+		tcMod scale 8 8
+	}
+}
 
 textures/base_wall/concrete_ow
 {

@@ -1,5 +1,25 @@
-// by dmn_clown
 textures/base_light/baslt4_1_2k
+{
+	qer_editorimage textures/base_light/xlight5.blend.tga
+	q3map_lightimage textures/base_light/xlight5.blend.tga
+	surfaceparm nomarks
+	q3map_surfacelight 250
+	{
+		map textures/base_light/xlight5.tga
+	}
+	{
+		map $lightmap 
+		blendfunc filter
+		tcGen lightmap 
+	}
+	{
+		map textures/base_light/xlight5.blend.tga
+		blendfunc add
+	}
+}
+
+// by dmn_clown
+textures/base_light/baslt4_1_2k_alt
 {
 	qer_editorimage textures/base_light/baslt4_1.jpg
 	q3map_lightimage textures/base_light/baslt4_1.blend.jpg

@@ -206,6 +206,29 @@ textures/sfx/hellfog_1k
 
 textures/sfx/hellfog_mini_dm10
 {
+	qer_trans 0.3
+	qer_editorimage textures/development/fog/fog-green.jpg
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	cull disable
+	fogparms ( 0.458824 0.862745 0.411765 ) 300
+	
+	{
+		map textures/liquids/kc_fogcloud3.tga
+		blendfunc filter
+		tcMod turb .01 .5 0 .05
+	}
+	{
+		map textures/liquids/kc_fogcloud3.tga
+		blendfunc filter
+		tcMod scroll -.02 .02
+	}
+}
+
+textures/sfx/hellfog_mini_dm10_alt
+{
 	qer_trans 2.0
 	qer_editorimage textures/development/fog/fog-red.jpg
 	surfaceparm trans
@@ -655,6 +678,18 @@ textures/sfx/r_flame-oasago
 	}
 }
 
+textures/sfx/xblackfog
+{
+	qer_trans 0.5
+	qer_editorimage textures/development/fog/fog-black.jpg
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nomarks
+	cull disable
+	fogparms ( 0.05 0.05 0.05 ) 500
+}
+
 textures/sfx/xbluefog
 {
 	qer_trans 0.128
@@ -701,6 +736,28 @@ textures/sfx/xlightgreyfog
 	surfaceparm nomarks
 	surfaceparm nolightmap
 	fogparms ( 0.5 0.5 0.5 ) 800
+}
+
+textures/sfx/xnotsodensegreyfog
+{
+	qer_trans 0.6
+	qer_editorimage textures/development/fog/fog-grey.jpg
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nomarks
+	cull disable
+	fogparms ( 0.4784 0.4784 0.4784 ) 600
+	{
+		map textures/liquids/kc_fogcloud3.tga
+		blendfunc filter
+		tcMod turb .01 .5 0 .05
+	}
+	{
+		map textures/liquids/kc_fogcloud3.tga
+		blendfunc filter
+		tcMod scroll -.02 .02
+	}
 }
 
 textures/sfx/xredfog

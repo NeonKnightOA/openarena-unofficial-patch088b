@@ -1,4 +1,4 @@
-﻿// Shaders not present in common.shader
+// Shaders not present in common.shader
 // Because reasons. (?)
 textures/common/hintlocal
 {

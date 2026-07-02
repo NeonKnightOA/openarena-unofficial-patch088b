@@ -1,3 +1,30 @@
+textures/filth/fog
+{
+	qer_trans 1.0
+	qer_editorimage textures/common/fog.tga
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm fog
+	surfaceparm nolightmap
+	
+	fogparms ( .929 .839 .518 ) 1000
+	
+}
+
+textures/filth/trak_fx1
+{
+	surfaceparm nolightmap
+	surfaceparm nonsolid
+	cull twosided
+	{
+		map textures/filth/trak_fx1.tga
+		tcGen environment
+		tcMod turb 0 0.25 0 0.5
+		tcmod scroll 1 1
+		blendfunc GL_ONE GL_ONE
+	}
+}
+
 textures/filth/trak_light
 {
 	qer_editorimage textures/filth/trak_light.tga
@@ -18,7 +45,6 @@ textures/filth/trak_light
 	}
 }
 
-
 textures/filth/trak_light1
 {
 	qer_editorimage textures/filth/trak_light1.tga
@@ -38,7 +64,6 @@ textures/filth/trak_light1
 		blendfunc GL_ONE GL_ONE
 	}
 }
-
 
 textures/filth/trak_light2
 {
@@ -140,7 +165,6 @@ textures/filth/trak_light3_64
 	}
 }
 
-
 textures/filth/trak_light3_128
 {
 	qer_editorimage textures/filth/trak_light3_128.tga
@@ -158,6 +182,19 @@ textures/filth/trak_light3_128
 	{
 		map textures/filth/trak_light3_128.blend.tga
 		blendfunc GL_ONE GL_ONE
+	}
+}
+
+textures/filth/trak_rustdecal1
+{
+	qer_trans 0.5
+	surfaceparm noimpact
+	surfaceparm nonsolid
+	surfaceparm trans
+	polygonoffset
+	{
+		map textures/filth/trak_rustdecal1.tga
+		blendfunc filter
 	}
 }
 
@@ -203,45 +240,3 @@ textures/filth/trak_trim_trans2
 	}
 }
 
-
-textures/filth/trak_rustdecal1
-{
-	qer_trans 0.5
-	surfaceparm noimpact
-	surfaceparm nonsolid
-	surfaceparm trans
-	polygonoffset
-	{
-		map textures/filth/trak_rustdecal1.tga
-		blendfunc filter
-	}
-}
-
-
-textures/filth/trak_fx1
-{
-	surfaceparm nolightmap
-	surfaceparm nonsolid
-	cull twosided
-	{
-		map textures/filth/trak_fx1.tga
-		tcGen environment
-		tcMod turb 0 0.25 0 0.5
-		tcmod scroll 1 1
-		blendfunc GL_ONE GL_ONE
-	}
-}
-
-
-textures/filth/fog
-{
-	qer_trans 1.0
-	qer_editorimage textures/common/fog.tga
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm fog
-	surfaceparm nolightmap
-	
-	fogparms ( .929 .839 .518 ) 1000
-	
-}
