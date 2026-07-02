@@ -93,6 +93,7 @@ Classic UI: https://files.poulsander.com/~poul19/public_files/oa/dev088/gamecode
   - Uses oad_blitzkrieg as a base.
   - All weapons and items use the new item base SFX.
   - All jumppads and teleportals use the new jumppad SFX.
+  - Added location names.
 * cbctf1
   - Fixed map having a single info_player_start.
   - Added location names. (Were already present but had the wrong classname)

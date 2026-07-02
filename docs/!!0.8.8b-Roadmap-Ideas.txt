@@ -46,9 +46,6 @@
 * Idea: Make the bots reach the Red Armor and the upper part of the Generator, which houses a DOM point and the Rocket Launcher in non-DOM modes.
 * Idea: Add a special room for the Single-Player campaign. Make the bot start with every weapon, (including BFG, Nailgun, Chaingun and Prox) max armor and max health. ^^
 
-== blitzkrieg3 ==
-* Add location names.
-
 == ce1m7 ==
 * Add Intermission spot.
 * Add location names.
