@@ -73,6 +73,12 @@ Classic UI: https://files.poulsander.com/~poul19/public_files/oa/dev088/gamecode
   - Included missing models. Said models were also rebuilt in NRC.
   - Fixed several imbalances between the bases.
   - Tons of minor changes.
+* am_spacecont
+  - Added location names.
+  - Brought back the weapon/item placement of RedishF (Kept the secret Flight/BFG item team, though).
+  - Added a small extension platform in the BFG/Flight hideout made to escape from the area.
+  - Added new SFX for jumppads and items.
+  - Other minor changes.
 * am_thornish
   - Fixed team and neutral obelisk/flag gametype properties.
   - All weapons and items use the new item base SFX.

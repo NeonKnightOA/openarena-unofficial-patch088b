@@ -33,9 +33,6 @@
 * Idea: Add Combat Armor and extra health in the corners? (Unlikely)
 * Idea: Bring the area-crossing jumppad from oad_galmevish? (Possibly)
 
-== am_spacecont ==
-* Add location names.
-
 == am_thornish ==
 * Relit the level.
 * Redo all the pillars.
