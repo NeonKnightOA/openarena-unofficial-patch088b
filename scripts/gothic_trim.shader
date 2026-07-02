@@ -58,6 +58,37 @@ textures/gothic_trim/border7
 	}
 }
 
+textures/gothic_trim/column2c
+{
+	qer_editorimage textures/gothic_trim/column2c_test.tga
+	{
+		map $lightmap 
+		rgbGen identity
+		tcGen lightmap 
+	}
+	{
+		map textures/gothic_trim/column2c_test.tga
+		blendfunc filter
+		rgbGen identity
+	}
+}
+
+textures/gothic_trim/column2c_trans
+{
+	qer_editorimage textures/gothic_trim/column2c_test.tga
+	surfaceparm nonsolid
+	{
+		map $lightmap 
+		rgbGen identity
+		tcGen lightmap 
+	}
+	{
+		map textures/gothic_trim/column2c_test.tga
+		blendfunc filter
+		rgbGen identity
+	}
+}
+
 textures/gothic_trim/gothgrate2
 {
 	surfaceparm metalsteps

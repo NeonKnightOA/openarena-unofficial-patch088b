@@ -152,6 +152,31 @@ textures/base_floor/hfloor3
 	}
 }
 
+textures/base_floor/metfloor1
+{
+	surfaceparm metalsteps
+	{
+		map textures/base_floor/metfloor1.tga
+		rgbGen const ( 1 1 1 )
+	}
+	{
+		clampmap textures/base_wall/chrome_env2.tga
+		blendfunc add
+		rgbGen const ( 0.188235 0.188235 0.188235 )
+		tcGen environment 
+	}
+	{
+		map textures/base_floor/metfloor1.tga
+		blendfunc filter
+		rgbGen const ( 0.737255 0.737255 0.737255 )
+	}
+	{
+		map $lightmap 
+		blendfunc filter
+		tcGen lightmap 
+	}
+}
+
 textures/base_floor/pjgrate1
 {
 	surfaceparm metalsteps
@@ -289,6 +314,27 @@ textures/base_floor/rusty_pentagrate
 		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 		depthFunc equal
+	}
+}
+
+textures/base_floor/skylight1
+{
+	qer_editorimage textures/base_floor/skylight1.tga
+	q3map_lightimage textures/base_floor/skylight1_lm.tga
+	q3map_surfacelight 150
+	{
+		map $lightmap
+		rgbgen identity
+	}
+	{
+		map textures/base_floor/skylight1.tga
+		blendfunc filter
+		rgbgen identity
+	}
+	{
+		map textures/base_floor/skylight1_lm.tga
+		blendfunc add
+		rgbgen wave sin .5 6 0 3.2
 	}
 }
 

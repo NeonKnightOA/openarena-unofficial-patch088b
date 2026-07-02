@@ -286,6 +286,29 @@ textures/proto2/mirrorfloor
 	}
 }
 
+textures/proto2/proto_lightblue_flare
+{
+	qer_editorimage textures/proto2/bluelight_on.tga
+	surfaceparm nomarks
+	q3map_surfacelight 1500
+	q3map_flare flareShader-twilightflare
+	
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{	
+		map textures/proto2/bluelight_on.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+	{
+		map textures/proto2/bluelight_on.tga
+		blendFunc GL_ONE GL_ONE
+		rgbGen wave square  1 1 .5 1
+	}
+}
+
 textures/proto2/red_zot
 {
 	qer_trans 0.5

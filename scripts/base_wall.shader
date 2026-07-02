@@ -513,6 +513,32 @@ textures/base_wall/concrete_ow
 	}
 }
 
+textures/base_wall/glass01
+{
+	qer_editorImage textures/effects/tinfx.tga
+	qer_trans 0.5
+	surfaceparm trans
+	cull disable
+	{
+		map textures/effects/tinfx.tga
+		blendfunc add
+		rgbGen identity
+		tcGen environment 
+	}
+	{
+		map textures/detail/d_met2.tga
+		blendfunc gl_dst_color gl_src_color
+		tcMod scale 4 4
+		detail
+	}
+	{
+		map $lightmap 
+		blendfunc filter
+		rgbGen identity
+		tcGen lightmap 
+	}
+}
+
 textures/base_wall/main_q3abanner
 {
 	q3map_lightimage textures/base_wall/main_q3abanner.jpg

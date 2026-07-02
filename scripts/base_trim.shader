@@ -23,6 +23,35 @@ textures/base_trim/dark_tin2
 	}
 }
 
+textures/base_trim/pewter
+{
+	qer_editorimage textures/base_trim/dirty_pewter.tga
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/base_trim/dirty_pewter.tga
+		rgbGen identity
+		blendFunc filter
+	}
+}
+
+textures/base_trim/pewter_nonsolid
+{
+	qer_editorimage textures/base_trim/dirty_pewter.tga
+	surfaceparm nonsolid
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/base_trim/dirty_pewter.tga
+		rgbGen identity
+		blendFunc filter
+	}
+}
+
 textures/base_trim/pewter_shiney
 {
 	qer_editorimage textures/base_trim/pewter_shiney.jpg
@@ -88,6 +117,19 @@ textures/base_trim/tin
 	{
 		map $lightmap 
 		blendfunc gl_dst_color gl_one_minus_src_alpha
+		tcGen lightmap 
+	}
+}
+
+textures/base_trim/tinfx
+{
+	{
+		map textures/base_trim/tinfx.tga
+		tcGen environment 
+	}
+	{
+		map $lightmap 
+		blendfunc filter
 		tcGen lightmap 
 	}
 }

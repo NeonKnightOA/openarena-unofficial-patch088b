@@ -21,6 +21,25 @@ models/flags/b_flag
 	}
 }
 
+models/flags/n_flag
+{
+	cull disable
+	deformVertexes wave 80 sin 2 8 0 3 
+	deformVertexes wave 20 square 0 2 0.5 0.2 
+	{
+		map textures/base_wall/chrome_env.tga
+		rgbGen identity
+		tcMod turb 1 1 0.5 0.3
+		tcGen environment 
+	}
+	{
+		map models/flags/n_flag.tga
+		depthFunc equal
+		depthWrite
+		alphaFunc GE128
+	}
+}
+
 models/flags/pole
 {
 	{

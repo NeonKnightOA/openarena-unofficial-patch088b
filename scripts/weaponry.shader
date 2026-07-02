@@ -1,13 +1,3 @@
-// models/weapons2/shotgun/f_shotgun
-//{
-//	sort additive
-//	cull disable
-//	{
-//		map	models/weapons2/shotgun/f_shotgun.tga
-//		blendfunc add
-//	}
-//} 
-
 muzzleSprite
 {
 	sort additive

@@ -58,28 +58,3 @@ logoHalo
 	}
 }
 
-menu/art/cut_frame
-{
-	nopicmip
-	{
-		map menu/art/cutred.tga
-		blendfunc filter
-	}
-	{
-		map menu/art/cut_frame.tga
-		blendfunc blend
-	}
-}
-
-menu/art/addbotframe
-{
-	nopicmip
-	{
-		map menu/art/addbotred.tga
-		blendfunc filter
-	}
-	{
-		map menu/art/addbotframe.tga
-		blendfunc blend
-	}
-}

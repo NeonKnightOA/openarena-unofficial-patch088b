@@ -1,4 +1,4 @@
-"team_icon/scumm_red"
+team_icon/scumm_red
 {
 	cull none
 	surfaceparm nolightmap
@@ -14,7 +14,7 @@
 	}
 }
 
-"team_icon/scumm_blue"
+team_icon/scumm_blue
 {
 	cull none
 	surfaceparm nolightmap
@@ -30,7 +30,7 @@
 	}
 }
 
-"team_icon/heathens_red"
+team_icon/heathens_red
 {
 	cull none
 	surfaceparm nolightmap
@@ -46,7 +46,7 @@
 	}
 }
 
-"team_icon/heathens_blue"
+team_icon/heathens_blue
 {
 	cull none
 	surfaceparm nolightmap
@@ -62,7 +62,7 @@
 	}
 }
 
-"team_icon/cyborgs_blue"
+team_icon/cyborgs_blue
 {
 	cull none
 	surfaceparm nolightmap
@@ -78,7 +78,7 @@
 	}
 }
 
-"team_icon/cyborgs_red"
+team_icon/cyborgs_red
 {
 	cull none
 	surfaceparm nolightmap
@@ -94,7 +94,7 @@
 	}
 }
 
-"team_icon/summer_blue"
+team_icon/summer_blue
 {
 	cull none
 	surfaceparm nolightmap
@@ -110,7 +110,7 @@
 	}
 }
 
-"team_icon/summer_red"
+team_icon/summer_red
 {
 	cull none
 	surfaceparm nolightmap

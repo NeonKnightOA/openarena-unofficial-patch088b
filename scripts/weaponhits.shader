@@ -418,3 +418,4 @@ grenadeExplosion
 		tcMod stretch inversesawtooth .2 .4 0 .6
 	}
 }
+

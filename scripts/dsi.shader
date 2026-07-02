@@ -1,3 +1,25 @@
+textures/dsi/cretetrimlight2
+{
+	qer_editorimage textures/dsi/cretetrimlight2.tga
+	q3map_lightimage textures/dsi/cretelighttrim2_glow.tga
+	surfaceparm nomarks
+	q3map_lightsubdivide 32
+	q3map_surfacelight 1000
+	{
+		map textures/dsi/cretetrimlight2.tga
+		rgbGen identity
+	}
+	{
+		map $lightmap 
+		blendfunc filter
+		tcGen lightmap 
+	}
+	{
+		map textures/dsi/cretetrimlight2_glow.tga
+		blendfunc add
+	}
+}
+
 textures/dsi/cretetrimlight2g
 {
 	qer_editorimage textures/dsi/cretetrimlight2g.tga
@@ -16,6 +38,28 @@ textures/dsi/cretetrimlight2g
 	}
 	{
 		map textures/dsi/cretetrimlight2g_glow.tga
+		blendfunc add
+	}
+}
+
+textures/dsi/cretetrimlight2r
+{
+	qer_editorimage textures/dsi/cretetrimlight2r.tga
+	q3map_lightimage textures/dsi/cretelighttrim2r_glow.tga
+	surfaceparm nomarks
+	q3map_lightsubdivide 32
+	q3map_surfacelight 1000
+	{
+		map textures/dsi/cretetrimlight2r.tga
+		rgbGen identity
+	}
+	{
+		map $lightmap 
+		blendfunc filter
+		tcGen lightmap 
+	}
+	{
+		map textures/dsi/cretetrimlight2r_glow.tga
 		blendfunc add
 	}
 }
@@ -59,6 +103,50 @@ textures/dsi/dsiglass
 		blendfunc filter
 		rgbGen identity
 		tcGen lightmap 
+	}
+}
+
+textures/dsi/tlight
+{
+	qer_editorimage textures/dsi/tlight.tga
+	q3map_lightimage textures/dsi/tlight.blend.tga
+	surfaceparm nomarks
+	q3map_lightsubdivide 32
+	q3map_surfacelight 1000
+	{
+		map textures/dsi/tlight.tga
+		rgbGen identity
+	}
+	{
+		map $lightmap 
+		blendfunc filter
+		tcGen lightmap 
+	}
+	{
+		map textures/dsi/tlight.blend.tga
+		blendfunc add
+	}
+}
+
+textures/dsi/tlightr
+{
+	qer_editorimage textures/dsi/tlightr.tga
+	q3map_lightimage textures/dsi/tlightr.blend.tga
+	surfaceparm nomarks
+	q3map_lightsubdivide 32
+	q3map_surfacelight 1000
+	{
+		map textures/dsi/tlightr.tga
+		rgbGen identity
+	}
+	{
+		map $lightmap 
+		blendfunc filter
+		tcGen lightmap 
+	}
+	{
+		map textures/dsi/tlightr.blend.tga
+		blendfunc add
 	}
 }
 

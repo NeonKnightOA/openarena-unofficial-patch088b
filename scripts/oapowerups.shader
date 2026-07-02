@@ -1,8 +1,3 @@
-models/powerups/instant/invisItem
-{
-	qer_editorImage textures/effects/tinfx.tga
-}
-
 invisItem
 {
 	cull disable
@@ -12,11 +7,6 @@ invisItem
 		rgbGen wave sin 0.3 0.4 0 0.5 
 		tcGen environment 
 	}
-}
-
-models/powerups/instant/quadDamage
-{
-	qer_editorImage textures/oafx/quadshell.tga
 }
 
 quadDamage
@@ -70,85 +60,6 @@ quadAura
 }
 
 //medkit
-models/powerups/holdable/medkit_base
-{
-	qer_editorImage textures/base_wall/chrome_env.jpg
-	{
-		map textures/base_wall/chrome_env.jpg
-		tcGen environment 
-		rgbGen lightingdiffuse
-		tcmod scale .5 .5
-	}
-}
-
-models/powerups/holdable/medkit_plunger
-{
-	qer_editorImage textures/effects/envmapdimb.jpg
-	{
-		map textures/effects/envmapdimb.jpg
-		tcgen environment
-		blendfunc add
-	}
-}
-
-models/powerups/holdable/medkit_slime
-{	
-	qer_editorImage textures/liquids/slime9.jpg
-	{
-		map textures/liquids/slime9.jpg
-		tcmod scroll 1 1
-		blendfunc add
-	}
-}
-
-//personal teleporter
-models/powerups/holdable/teleport_center
-{
-	qer_editorImage textures/base_wall/chrome_env.jpg
-	{
-		map textures/base_wall/chrome_env.jpg
-		tcgen environment
-		rgbGen lightingdiffuse
-		tcmod scale .5 .5
-	}
-}
-
-models/powerups/holdable/teleport_outer
-{
-	qer_editorImage textures/liquids/lavafloor.jpg
-	{
-		map textures/liquids/lavafloor.jpg
-		tcmod scroll .5 .5
-		blendfunc add
-	}
-}
-
-//enviro suit
-models/powerups/instant/ebase
-{
-	qer_editorImage textures/effects/envmapgold.jpg
-	{
-		map textures/effects/envmapgold.jpg
-		tcgen environment
-		rgbGen vertex
-	}
-}
-
-models/powerups/instant/ering
-{
-	{
-		map textures/effects/envmapgold.jpg
-		tcgen environment
-		rgbgen vertex
-	}
-}
-//regeneration
-
-models/powerups/instant/rcad
-{
-	qer_editorImage textures/effects/regenmap2.jpg
-}
-
 rcad
 {
 	{
@@ -167,103 +78,3 @@ rring
 	}
 }
 
-//haste
-models/powerups/instant/h_center
-{
-	qer_editorImage textures/effects/hastenv.jpg
-	{
-		map textures/effects/hastenv.jpg
-		tcgen environment
-		rgbgen vertex
-	}
-}
-
-models/powerups/instant/h_ring
-{
-	{
-		map textures/effects/hastenv.jpg
-		tcgen environment
-		rgbgen vertex
-	}
-}
-
-//flight
-models/powerups/instant/flight_body
-{
-	qer_editorImage textures/effects/flightenv.jpg
-	{
-		map textures/effects/flightenv.jpg
-		tcgen environment
-		rgbgen vertex
-	}
-}
-
-models/powerups/instant/flight_ring
-{
-	{
-		map textures/effects/flightenv.jpg
-		tcgen environment
-		rgbgen vertex
-	}
-}
-
-models/powerups/armor/shard
-{
-	{
-		map models/powerups/armor/shard_env.jpg
-		tcgen environment
-	}
-}
-
-models/powerups/armor/shard_env
-{
-	{
-		map models/powerups/armor/shard_env.jpg
-		blendfunc add
-		rgbgen wave sin .2 .5 0 .5
-		tcgen environment
-	}
-}
-
-//gibs ;-p
-models/gibs/heart
-{
-	deformvertexes wave 20 sin 1.4 .3 0 1.2
-	{
-		map models/gibs/heart.tga
-		rgbGen lightingDiffuse
-	}
-}
-
-models/gibs/veins
-{
-	{
-		map models/gibs/veins.tga
-		alphafunc GE128
-		depthwrite
-		rgbGen lightingDiffuse
-		
-	}
-}
-
-models/gibs/splurt
-{
-	{
-		map models/gibs/splurt.tga
-		alphafunc GE128
-		depthwrite
-		tcmod scroll 0 3
-		rgbGen lightingDiffuse
-	}
-}
-
-models/gibs/f_veins
-{
-	{
-		map models/gibs/f_veins.tga
-		alphafunc GE128
-		depthwrite
-		rgbGen lightingDiffuse
-		
-	}
-}

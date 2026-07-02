@@ -24,3 +24,17 @@ sprites/friend
 	}
 }
 
+sprites/plasma1
+{
+	{
+		clampmap sprites/plasmaa.tga
+		blendfunc gl_src_alpha gl_one
+		tcMod rotate -145
+	}
+	{
+		clampmap sprites/plasmaa.tga
+		blendfunc gl_src_alpha gl_one
+		tcMod rotate 177
+	}
+}
+

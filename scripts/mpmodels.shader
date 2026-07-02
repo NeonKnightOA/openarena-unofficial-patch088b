@@ -1,71 +1,3 @@
-models/flags/pole
-{
-	{
-		map textures/base_wall/chrome_env.tga
-		rgbGen lightingDiffuse
-		tcMod scale 0.5 0.5
-		tcGen environment 
-	}
-	{
-		map models/flags/pole.tga
-		blendfunc filter
-		rgbGen identity
-	}
-}
-
-models/flags/n_flag
-{
-	cull disable
-	deformVertexes wave 80 sin 2 8 0 3 
-	deformVertexes wave 20 square 0 2 0.5 0.2 
-	{
-		map textures/base_wall/chrome_env.tga
-		rgbGen identity
-		tcMod turb 1 1 0.5 0.3
-		tcGen environment 
-	}
-	{
-		map models/flags/n_flag.tga
-		depthFunc equal
-		depthWrite
-		alphaFunc GE128
-	}
-}
-
-models/powerups/orb/r_orb
-{
-	cull disable
-	{
-		map textures/effects/tin_red.tga
-		blendfunc add
-		rgbGen identity
-		tcMod turb 1 1 0.5 1
-		tcGen environment 
-	}
-}
-
-models/powerups/orb/b_orb
-{
-	cull disable
-	{
-		map textures/effects/tin_blue.tga
-		blendfunc add
-		rgbGen identity
-		tcMod turb 1 1 0.5 1
-		tcGen environment 
-	}
-}
-
-models/powerups/orb/shell
-{
-	cull disable
-	{
-		map textures/effects/envmapdimb.tga
-		blendfunc add
-		tcGen environment 
-	}
-}
-
 overloadBase
 {
 	{
@@ -81,16 +13,6 @@ overloadBase
 		tcMod rotate -7
 		tcGen environment 
 	}
-}
-
-models/powerups/OverloadProngs
-{
-	qer_editorImage textures/effects/envmapdim.tga
-}
-
-models/powerups/obelisk/OverloadProngs
-{
-	qer_editorImage textures/effects/envmapdim.tga
 }
 
 overloadProngs
@@ -155,11 +77,6 @@ overloadSphere
 	}
 }
 
-models/powerups/kamikazePowerup
-{
-	qer_editorImage textures/effects/envmapdimb.tga
-}
-
 kamikazePowerup
 {
 	{
@@ -168,11 +85,6 @@ kamikazePowerup
 		tcMod rotate 54
 		tcGen environment 
 	}
-}
-
-models/powerups/kamikazeShell
-{
-	qer_editorImage textures/flares/lava.tga
 }
 
 kamikazeShell
@@ -232,11 +144,6 @@ dbStrip
 	}
 }
 
-models/powerups/RuneScout
-{
-	qer_editorImage textures/effects/effectseditor/runeScout.tga
-}
-
 runeScout
 {
 	{
@@ -244,11 +151,6 @@ runeScout
 		rgbGen const ( 0.658824 1 0.658824 )
 		tcGen environment 
 	}
-}
-
-models/powerups/RuneAmreg
-{
-	qer_editorImage textures/effects/effectseditor/runeAmreg.tga
 }
 
 runeAmreg
@@ -260,11 +162,6 @@ runeAmreg
 	}
 }
 
-models/powerups/RuneGuard
-{
-	qer_editorImage textures/effects/effectseditor/runeGuard.tga
-}
-
 runeGuard
 {
 	{
@@ -274,89 +171,12 @@ runeGuard
 	}
 }
 
-models/powerups/RuneDoubler
-{
-	qer_editorImage textures/effects/effectseditor/runeDoubler.tga
-}
-
 runeDoubler
 {
 	{
 		map textures/effects/tinfx2c.tga
 		rgbGen const ( 1 0.176471 0.176471 )
 		tcGen environment 
-	}
-}
-
-models/powerups/ammo/vulcammo
-{
-	qer_editorImage models/powerups/ammo/ammobox.tga
-	{
-		map models/powerups/ammo/ammobox.tga
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/powerups/ammo/ammolights.tga
-		blendfunc blend
-		rgbGen const ( 0.560784 0.560784 0.560784 )
-		alphaGen wave sawtooth 0 1 0 1 
-	}
-}
-
-models/powerups/ammo/nailammo
-{
-	qer_editorImage models/powerups/ammo/ammobox.tga
-	{
-		map models/powerups/ammo/ammobox.tga
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/powerups/ammo/ammolights.tga
-		blendfunc blend
-		rgbGen const ( 1 0.309804 0.309804 )
-		alphaGen wave sawtooth 0 1 0 1 
-	}
-}
-
-models/powerups/ammo/proxammo
-{
-	qer_editorImage models/powerups/ammo/ammobox.tga
-	{
-		map models/powerups/ammo/ammobox.tga
-		rgbGen lightingDiffuse
-	}
-	{
-		map models/powerups/ammo/ammolights.tga
-		blendfunc blend
-		rgbGen const ( 0.921569 0.819608 0.588235 )
-		alphaGen wave sawtooth 0 1 0 1 
-	}
-}
-
-models/powerups/ammo/vulcammo2
-{
-	qer_editorImage models/powerups/ammo/vulcammo.tga
-	{
-		map models/powerups/ammo/vulcammo.tga
-		rgbGen identity
-	}
-}
-
-models/powerups/ammo/nailammo2
-{
-	qer_editorImage models/powerups/ammo/nailammo.tga
-	{
-		map models/powerups/ammo/nailammo.tga
-		rgbGen identity
-	}
-}
-
-models/powerups/ammo/proxammo2
-{
-	qer_editorImage models/powerups/ammo/proxammo.tga
-	{
-		map models/powerups/ammo/proxammo.tga
-		rgbGen identity
 	}
 }
 

@@ -1,3 +1,39 @@
+textures/ctf_unified/floor_decal_blue
+{
+	cull disable
+	{
+		map textures/symbols/blueteam.tga
+		blendfunc add
+	}
+}
+
+textures/ctf_unified/floor_decal_red
+{
+	cull disable
+	{
+		map textures/symbols/redteam.tga
+		blendfunc add
+	}
+}
+
+textures/ctf_unified/monologo_flash_blue
+{
+	qer_editorImage textures/symbols/blueteam.tga
+	cull disable
+	{
+		map textures/symbols/blueteam.tga
+	}
+}
+
+textures/ctf_unified/monologo_flash_red
+{
+	qer_editorImage textures/symbols/redteam.tga
+	cull disable
+	{
+		map textures/symbols/redteam.tga
+	}
+}
+
 textures/ctf_unified/ta_techspawn_blue
 {
 	qer_editorimage textures/ctf_unified/ta_techspawn_blue-editor

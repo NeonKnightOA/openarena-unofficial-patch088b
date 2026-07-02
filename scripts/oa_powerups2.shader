@@ -1,8 +1,3 @@
-models/powerups/holdable/invulitem1
-{
-	qer_editorImage models/powerups/shield/shieldwire.tga
-}
-
 invulitem1
 {
 	cull disable
@@ -21,11 +16,6 @@ invulitem1
 		tcGen environment 
 		alphaGen lightingSpecular
 	}
-}
-
-models/powerups/holdable/invulitem2
-{
-	qer_editorImage textures/effects/tinfx2c.tga
 }
 
 invulitem2

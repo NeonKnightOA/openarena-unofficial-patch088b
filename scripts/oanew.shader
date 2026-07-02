@@ -91,124 +91,6 @@ LightnnFlash
 	}
 }
 
-// sawtooth stretch 0 values result in ugly clamping
-textures/effects/jumpcirc
-{
-	q3map_lightimage textures/effects/jumpcirc.tga
-	q3map_surfacelight 466
-	{
-		clampmap textures/effects/jumpcirc.tga
-		tcMod stretch sawtooth 0.5 1 0 1 
-		tcMod rotate 75
-	}
-	{
-		clampmap textures/effects/jumpcirc.tga
-		blendfunc add
-		tcMod stretch sawtooth 0.5 1 0 1 
-		tcMod rotate -120
-	}
-}
-
-// textures/effects/jumpcircblue is the same as textures/ctf/blue_telep
-// sawtooth stretch 0 values result in ugly clamping
-textures/effects/jumpcircblue
-{
-	q3map_lightimage textures/effects/jumpcircblue.tga
-	q3map_surfacelight 466
-	{
-		clampmap textures/effects/jumpcircblue.tga
-		tcMod stretch sawtooth 0.5 1 0 1 
-		tcMod rotate 75
-	}
-	{
-		clampmap textures/effects/jumpcircblue.tga
-		blendfunc add
-		tcMod stretch sawtooth 0.5 1 0 1 
-		tcMod rotate -120
-	}
-}
-
-// textures/effects/jumpcircblue is the same as textures/ctf/blue_telep
-// sawtooth stretch 0 values result in ugly clamping
-textures/effects/jumpcircred
-{
-	q3map_lightimage textures/effects/jumpcircred.tga
-	q3map_surfacelight 466
-	{
-		clampmap textures/effects/jumpcircred.tga
-		tcMod stretch sawtooth 0.5 1 0 1 
-		tcMod rotate 75
-	}
-	{
-		clampmap textures/effects/jumpcircred.tga
-		blendfunc add
-		tcMod stretch sawtooth 0.5 1 0 1 
-		tcMod rotate -120
-	}
-}
-
-textures/ctf_unified/floor_decal_blue
-{
-	cull disable
-	{
-		map textures/symbols/blueteam.tga
-		blendfunc add
-	}
-}
-
-textures/ctf_unified/floor_decal_red
-{
-	cull disable
-	{
-		map textures/symbols/redteam.tga
-		blendfunc add
-	}
-}
-
-textures/ctf_unified/monologo_flash_blue
-{
-	qer_editorImage textures/symbols/blueteam.tga
-	cull disable
-	{
-		map textures/symbols/blueteam.tga
-	}
-}
-
-textures/ctf_unified/monologo_flash_red
-{
-	qer_editorImage textures/symbols/redteam.tga
-	cull disable
-	{
-		map textures/symbols/redteam.tga
-	}
-}
-
-textures/base_wall/glass01
-{
-	qer_editorImage textures/effects/tinfx.tga
-	qer_trans 0.5
-	surfaceparm trans
-	cull disable
-	{
-		map textures/effects/tinfx.tga
-		blendfunc add
-		rgbGen identity
-		tcGen environment 
-	}
-	{
-		map textures/detail/d_met2.tga
-		blendfunc gl_dst_color gl_src_color
-		tcMod scale 4 4
-		detail
-	}
-	{
-		map $lightmap 
-		blendfunc filter
-		rgbGen identity
-		tcGen lightmap 
-	}
-}
-
 redArmor
 {
 	{
@@ -248,44 +130,6 @@ yellowArmor
 		blendfunc gl_dst_color gl_src_color
 		tcMod scale 4 4
 		detail
-	}
-}
-
-textures/base_floor/metfloor1
-{
-	surfaceparm metalsteps
-	{
-		map textures/base_floor/metfloor1.tga
-		rgbGen const ( 1 1 1 )
-	}
-	{
-		clampmap textures/base_wall/chrome_env2.tga
-		blendfunc add
-		rgbGen const ( 0.188235 0.188235 0.188235 )
-		tcGen environment 
-	}
-	{
-		map textures/base_floor/metfloor1.tga
-		blendfunc filter
-		rgbGen const ( 0.737255 0.737255 0.737255 )
-	}
-	{
-		map $lightmap 
-		blendfunc filter
-		tcGen lightmap 
-	}
-}
-
-textures/base_trim/tinfx
-{
-	{
-		map textures/base_trim/tinfx.tga
-		tcGen environment 
-	}
-	{
-		map $lightmap 
-		blendfunc filter
-		tcGen lightmap 
 	}
 }
 
@@ -541,20 +385,6 @@ shotgunSmokePuff
 		blendfunc blend
 		tcMod rotate -45
 		alphaGen entity
-	}
-}
-
-sprites/plasma1
-{
-	{
-		clampmap sprites/plasmaa.tga
-		blendfunc gl_src_alpha gl_one
-		tcMod rotate -145
-	}
-	{
-		clampmap sprites/plasmaa.tga
-		blendfunc gl_src_alpha gl_one
-		tcMod rotate 177
 	}
 }
 
