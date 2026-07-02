@@ -21,6 +21,7 @@ textures/savdm6ish/sfloor1_2
 textures/savdm6ish/#teleport
 {
 	qer_trans 0.5
+	qer_editorImage textures/liquids/pool3d_5e.tga
 	q3map_lightimage textures/liquids/pool3d_3.tga
 	surfaceparm nomarks
 	surfaceparm trans
