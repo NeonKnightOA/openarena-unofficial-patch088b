@@ -1,4 +1,5 @@
 
+//@$& layerdef "0" -1 0 0 0
 // entity 0
 {
 "classname" "worldspawn"
@@ -5235,7 +5236,7 @@ gothic_floor/largerblock3b3dim
 {
 ( -1916 2160 448 ) ( -1916 2132 448 ) ( -1932 2160 448 ) base_trim/deeprust 0 -0 180 0.5 0.5 134217728 0 0
 ( -1927 2174 400 ) ( -1927 2174 448 ) ( -1928 2176 448 ) base_trim/deeprust 0 0 0 -0.5 0.5 134217728 0 0
-( -1927 2174 448 ) ( -1927 2174 400 ) ( -1962 2139 400 ) gothic_light/ironcrossltred_4000 -14.9985351563 43 0 0.2734375 0.375 134217728 0 0
+( -1927 2174 448 ) ( -1927 2174 400 ) ( -1962 2139 400 ) gothic_light/ironcrossltred_4000 -14.9985351562 43 0 0.2734375 0.375 134217728 0 0
 ( -1932 2132 400 ) ( -1916 2132 400 ) ( -1932 2160 400 ) base_trim/deeprust 0 -0 180 0.5 0.5 134217728 0 0
 ( -1962 2139 448 ) ( -1962 2139 400 ) ( -1964 2140 448 ) base_trim/deeprust 0 0 0 -0.5 0.5 134217728 0 0
 ( -1928 2176 400 ) ( -1928 2176 448 ) ( -1964 2140 448 ) common/caulk 27.9997558594 0 0 -0.4999999702 0.4999999702 134217728 0 0
@@ -11258,10 +11259,10 @@ cosmo_light/dmask1_red
 }
 // brush 1216
 {
-( -1696 436 392 ) ( -1632 436 392 ) ( -1696 428 392 ) common/nodraw -20 12.0004882813 -90 0.4999999702 0.4999999702 134217728 0 0
+( -1696 436 392 ) ( -1632 436 392 ) ( -1696 428 392 ) common/nodraw -20 12.0004882812 -90 0.4999999702 0.4999999702 134217728 0 0
 ( -1650 388 392 ) ( -1650 388 136 ) ( -1652 390 136 ) common/nodraw -12 -12.0000076294 0 -0.4999999702 0.4999999702 134217728 0 0
 ( -1614 452 136 ) ( -1614 452 392 ) ( -1652 390 392 ) common/nodraw 11.9999713898 -12.0000076294 0 0.4999999702 0.4999999702 134217728 0 0
-( -1632 428 136 ) ( -1632 436 136 ) ( -1696 428 136 ) common/nodraw -20 12.0004882813 -90 0.4999999702 0.4999999702 134217728 0 0
+( -1632 428 136 ) ( -1632 436 136 ) ( -1696 428 136 ) common/nodraw -20 12.0004882812 -90 0.4999999702 0.4999999702 134217728 0 0
 ( -1612 450 136 ) ( -1612 450 392 ) ( -1614 452 392 ) common/nodraw -0.0003662109 -12.0000076294 0 -0.4999999702 0.4999999702 134217728 0 0
 ( -1650 388 136 ) ( -1650 388 392 ) ( -1612 450 392 ) cosmo_sfx/flag_oa_red1 33 272 0 -0.484375 0.5 134217728 0 0
 }
@@ -13612,7 +13613,7 @@ cosmo_light/dmask1_red
 // brush 1488
 {
 ( -1891 1704 358 ) ( -1891 1688 358 ) ( -1984 1688 424 ) common/caulk -24 19.9995727539 -0 0.4999999702 0.4999999702 134217728 0 0
-( -1891 1704 300 ) ( -1891 1688 300 ) ( -1891 1688 358 ) common/caulk -24.0004882813 -16 0 0.4999999702 0.4999999702 134217728 0 0
+( -1891 1704 300 ) ( -1891 1688 300 ) ( -1891 1688 358 ) common/caulk -24.0004882812 -16 0 0.4999999702 0.4999999702 134217728 0 0
 ( -1904 1688 416 ) ( -1904 1688 320 ) ( -1992 1688 416 ) base_wall/patch10_beatup2 8.0004730225 -16 0 0.4999999404 0.4999999404 134217728 0 0
 ( -1891 1688 300 ) ( -1891 1704 300 ) ( -1984 1688 424 ) base_wall/patch10_beatup2 -24.0000610352 0 0 0.4999999404 0.4999999404 134217728 0 0
 ( -1992 1704 320 ) ( -1904 1704 320 ) ( -1992 1704 416 ) base_wall/patch10_beatup2 8.0004730225 -16 0 0.4999999404 0.4999999404 134217728 0 0
@@ -14805,10 +14806,10 @@ cosmo_light/dmask1_red
 }
 // brush 1623
 {
-( 1696 -436 392 ) ( 1632 -436 392 ) ( 1696 -428 392 ) common/nodraw -20 12.0004882813 -90 0.4999999702 0.4999999702 134217728 0 0
+( 1696 -436 392 ) ( 1632 -436 392 ) ( 1696 -428 392 ) common/nodraw -20 12.0004882812 -90 0.4999999702 0.4999999702 134217728 0 0
 ( 1650 -388 392 ) ( 1650 -388 136 ) ( 1652 -390 136 ) common/nodraw -12 -12.0000076294 0 -0.4999999702 0.4999999702 134217728 0 0
 ( 1614 -452 136 ) ( 1614 -452 392 ) ( 1652 -390 392 ) common/nodraw 11.9999713898 -12.0000076294 0 0.4999999702 0.4999999702 134217728 0 0
-( 1632 -428 136 ) ( 1632 -436 136 ) ( 1696 -428 136 ) common/nodraw -20 12.0004882813 -90 0.4999999702 0.4999999702 134217728 0 0
+( 1632 -428 136 ) ( 1632 -436 136 ) ( 1696 -428 136 ) common/nodraw -20 12.0004882812 -90 0.4999999702 0.4999999702 134217728 0 0
 ( 1612 -450 136 ) ( 1612 -450 392 ) ( 1614 -452 392 ) common/nodraw -0.0003662109 -12.0000076294 0 -0.4999999702 0.4999999702 134217728 0 0
 ( 1650 -388 136 ) ( 1650 -388 392 ) ( 1612 -450 392 ) cosmo_sfx/flag_oa_blue1 95 272 0 -0.484375 0.5 134217728 0 0
 }
@@ -15397,11 +15398,11 @@ cosmo_light/dmask1_red
 }
 // brush 1689
 {
-( -384 2280 256 ) ( -368 2280 256 ) ( -368 2200 200 ) common/caulk -24.0000019073 -8.0004882813 180 0.4999999702 0.4999999702 134217728 0 0
+( -384 2280 256 ) ( -368 2280 256 ) ( -368 2200 200 ) common/caulk -24.0000019073 -8.0004882812 180 0.4999999702 0.4999999702 134217728 0 0
 ( -416 2200 200 ) ( -368 2200 200 ) ( -416 2200 152 ) common/caulk -24.0000019073 -16 0 -0.4999999702 0.4999999702 134217728 0 0
-( -384 2200 248 ) ( -384 2200 152 ) ( -384 2288 248 ) base_wall/patch10_beatup3 8.0004882813 -16 0 -0.4999999404 0.4999999404 134217728 0 0
+( -384 2200 248 ) ( -384 2200 152 ) ( -384 2288 248 ) base_wall/patch10_beatup3 8.0004882812 -16 0 -0.4999999404 0.4999999404 134217728 0 0
 ( -368 2280 256 ) ( -384 2280 256 ) ( -384 2200 152 ) base_wall/patch10_beatup3 -24.0000019073 0 0 -0.4999999404 0.4999999404 134217728 0 0
-( -368 2288 152 ) ( -368 2200 152 ) ( -368 2288 248 ) base_wall/patch10_beatup3 8.0004882813 -16 0 -0.4999999404 0.4999999404 134217728 0 0
+( -368 2288 152 ) ( -368 2200 152 ) ( -368 2288 248 ) base_wall/patch10_beatup3 8.0004882812 -16 0 -0.4999999404 0.4999999404 134217728 0 0
 }
 // brush 1690
 {
@@ -17767,11 +17768,11 @@ cosmo_light/dmask1_red
 }
 // brush 1956
 {
-( 384 -2280 256 ) ( 368 -2280 256 ) ( 368 -2200 200 ) common/caulk -24.0000019073 -8.0004882813 180 0.4999999702 0.4999999702 134217728 0 0
+( 384 -2280 256 ) ( 368 -2280 256 ) ( 368 -2200 200 ) common/caulk -24.0000019073 -8.0004882812 180 0.4999999702 0.4999999702 134217728 0 0
 ( 416 -2200 200 ) ( 368 -2200 200 ) ( 416 -2200 152 ) common/caulk -24.0000019073 -16 0 -0.4999999702 0.4999999702 134217728 0 0
-( 384 -2200 248 ) ( 384 -2200 152 ) ( 384 -2288 248 ) base_wall/patch10_beatup3 8.0004882813 -16 0 -0.4999999404 0.4999999404 134217728 0 0
+( 384 -2200 248 ) ( 384 -2200 152 ) ( 384 -2288 248 ) base_wall/patch10_beatup3 8.0004882812 -16 0 -0.4999999404 0.4999999404 134217728 0 0
 ( 368 -2280 256 ) ( 384 -2280 256 ) ( 384 -2200 152 ) base_wall/patch10_beatup3 -24.0000019073 0 0 -0.4999999404 0.4999999404 134217728 0 0
-( 368 -2288 152 ) ( 368 -2200 152 ) ( 368 -2288 248 ) base_wall/patch10_beatup3 8.0004882813 -16 0 -0.4999999404 0.4999999404 134217728 0 0
+( 368 -2288 152 ) ( 368 -2200 152 ) ( 368 -2288 248 ) base_wall/patch10_beatup3 8.0004882812 -16 0 -0.4999999404 0.4999999404 134217728 0 0
 }
 // brush 1957
 {
@@ -17836,7 +17837,7 @@ cosmo_light/dmask1_red
 // brush 1964
 {
 ( -2080 1688 356 ) ( -2080 1704 356 ) ( -1984 1704 424 ) common/caulk -24 19.9995727539 -0 0.4999999702 0.4999999702 134217728 0 0
-( -2080 1688 300 ) ( -2080 1704 300 ) ( -2080 1704 356 ) common/caulk -24.0004882813 -16 0 0.4999999702 0.4999999702 134217728 0 0
+( -2080 1688 300 ) ( -2080 1704 300 ) ( -2080 1704 356 ) common/caulk -24.0004882812 -16 0 0.4999999702 0.4999999702 134217728 0 0
 ( -2064 1704 416 ) ( -2064 1704 320 ) ( -1976 1704 416 ) base_wall/patch10_beatup2 8.0004730225 -16 0 0.4999999404 0.4999999404 134217728 0 0
 ( -2080 1704 300 ) ( -2080 1688 300 ) ( -1984 1704 424 ) base_wall/patch10_beatup2 -24.0000610352 0 0 0.4999999404 0.4999999404 134217728 0 0
 ( -1976 1688 320 ) ( -2064 1688 320 ) ( -1976 1688 416 ) base_wall/patch10_beatup2 8.0004730225 -16 0 0.4999999404 0.4999999404 134217728 0 0
@@ -18542,7 +18543,7 @@ cosmo_light/dmask1_red
 ( -1072 836 504 ) ( -1032 836 504 ) ( -1032 800 480 ) common/caulk 27.9997558594 -0.0002441406 180 0.4999999702 0.4999999702 134217728 0 0
 ( -1120 840 500 ) ( -992 840 500 ) ( -992 836 504 ) base_trim/deeprust -48 -0.0003662109 -0 0.5 -0.375 134217728 0 0
 ( -1032 840 492 ) ( -1032 840 488 ) ( -1032 816 492 ) base_trim/deeprust 0 0 0 -0.5 0.5 134217728 0 0
-( -1032 840 500 ) ( -1072 840 500 ) ( -1072 800 474 ) gothic_light/ironcrossltred_4000 -26.0004882813 127.9993896484 -0 0.3125 0.3125 134217728 0 0
+( -1032 840 500 ) ( -1072 840 500 ) ( -1072 800 474 ) gothic_light/ironcrossltred_4000 -26.0004882812 127.9993896484 -0 0.3125 0.3125 134217728 0 0
 ( -1032 800 474 ) ( -1072 800 474 ) ( -1072 800 480 ) common/caulk -19.9995117188 0 0 0.4999999702 0.375 134217728 0 0
 ( -1072 816 488 ) ( -1072 840 488 ) ( -1072 816 492 ) base_trim/deeprust 0 0 0 -0.5 0.5 134217728 0 0
 }
@@ -18557,9 +18558,9 @@ cosmo_light/dmask1_red
 }
 // brush 2044
 {
-( -328 588 640 ) ( -328 840 640 ) ( -220 588 640 ) common/caulk 19.9995117188 -24.0004882813 180 0.4999999702 0.4999999702 134217728 0 0
-( -248 728 544 ) ( -248 728 640 ) ( -180 660 640 ) common/caulk 20.0004882813 0 0 -0.4999999702 0.4999999702 134217728 0 0
-( -248 728 640 ) ( -248 728 544 ) ( -248 732 544 ) common/caulk 24.0004882813 0 0 -0.4999999702 0.4999999702 134217728 0 0
+( -328 588 640 ) ( -328 840 640 ) ( -220 588 640 ) common/caulk 19.9995117188 -24.0004882812 180 0.4999999702 0.4999999702 134217728 0 0
+( -248 728 544 ) ( -248 728 640 ) ( -180 660 640 ) common/caulk 20.0004882812 0 0 -0.4999999702 0.4999999702 134217728 0 0
+( -248 728 640 ) ( -248 728 544 ) ( -248 732 544 ) common/caulk 24.0004882812 0 0 -0.4999999702 0.4999999702 134217728 0 0
 ( -204 840 544 ) ( -312 840 544 ) ( -204 588 544 ) base_wall/patch10_beatup3 -3.9999847412 -252.0000610352 180 0.4999999404 0.4999999404 134217728 0 0
 ( -248 732 640 ) ( -248 732 544 ) ( -180 664 640 ) gothic_light/ironcrossltred_4000 -98.0000610352 85 0 0.53125 0.75 134217728 0 0
 ( -180 664 640 ) ( -180 664 544 ) ( -180 660 544 ) common/caulk 20 0 0 -0.4999999702 0.4999999702 134217728 0 0
@@ -18574,18 +18575,18 @@ cosmo_light/dmask1_red
 }
 // brush 2046
 {
-( -328 588 640 ) ( -328 840 640 ) ( -220 588 640 ) common/caulk 19.9995117188 -24.0004882813 180 0.4999999702 0.4999999702 134217728 0 0
-( -180 660 544 ) ( -180 660 640 ) ( -96 576 640 ) common/caulk 20.0004882813 0 0 -0.4999999702 0.4999999702 134217728 0 0
-( -180 664 544 ) ( -180 664 640 ) ( -180 660 640 ) common/caulk 24.0004882813 0 0 -0.4999999702 0.4999999702 134217728 0 0
+( -328 588 640 ) ( -328 840 640 ) ( -220 588 640 ) common/caulk 19.9995117188 -24.0004882812 180 0.4999999702 0.4999999702 134217728 0 0
+( -180 660 544 ) ( -180 660 640 ) ( -96 576 640 ) common/caulk 20.0004882812 0 0 -0.4999999702 0.4999999702 134217728 0 0
+( -180 664 544 ) ( -180 664 640 ) ( -180 660 640 ) common/caulk 24.0004882812 0 0 -0.4999999702 0.4999999702 134217728 0 0
 ( -204 840 544 ) ( -312 840 544 ) ( -204 588 544 ) base_wall/patch10_beatup3 24.0000152588 -24.0000610352 180 0.4999999404 0.4999999404 134217728 0 0
 ( -180 664 640 ) ( -180 664 544 ) ( -92 580 640 ) base_wall/patch10_beatup3 48 0 0 -0.5 0.5 134217728 0 0
 ( -92 580 640 ) ( -92 580 544 ) ( -96 576 544 ) common/caulk 19.9995727539 0 0 -0.4999999702 0.4999999702 134217728 0 0
 }
 // brush 2047
 {
-( -328 588 640 ) ( -328 840 640 ) ( -220 588 640 ) common/caulk 19.9995117188 -24.0004882813 180 0.4999999702 0.4999999702 134217728 0 0
-( -248 728 640 ) ( -248 728 544 ) ( -352 832 544 ) common/caulk 20.0004882813 0 0 -0.4999999702 0.4999999702 134217728 0 0
-( -352 836 544 ) ( -352 836 640 ) ( -352 832 640 ) common/caulk 24.0004882813 0 0 -0.4999999702 0.4999999702 134217728 0 0
+( -328 588 640 ) ( -328 840 640 ) ( -220 588 640 ) common/caulk 19.9995117188 -24.0004882812 180 0.4999999702 0.4999999702 134217728 0 0
+( -248 728 640 ) ( -248 728 544 ) ( -352 832 544 ) common/caulk 20.0004882812 0 0 -0.4999999702 0.4999999702 134217728 0 0
+( -352 836 544 ) ( -352 836 640 ) ( -352 832 640 ) common/caulk 24.0004882812 0 0 -0.4999999702 0.4999999702 134217728 0 0
 ( -204 840 544 ) ( -312 840 544 ) ( -204 588 544 ) base_wall/patch10_beatup3 24.0000152588 -24.0000610352 180 0.4999999404 0.4999999404 134217728 0 0
 ( -248 732 544 ) ( -248 732 640 ) ( -352 836 640 ) base_wall/patch10_beatup3 48 0 0 -0.5 0.5 134217728 0 0
 ( -248 732 640 ) ( -248 732 544 ) ( -248 728 544 ) common/caulk 20 0 0 -0.4999999702 0.4999999702 134217728 0 0
@@ -18610,7 +18611,7 @@ cosmo_light/dmask1_red
 }
 // brush 2050
 {
-( 328 616 512 ) ( 296 576 512 ) ( 296 616 512 ) common/caulk 3.9995117188 8.0004882813 0 -0.4999999702 0.4999999702 134217728 0 0
+( 328 616 512 ) ( 296 576 512 ) ( 296 616 512 ) common/caulk 3.9995117188 8.0004882812 0 -0.4999999702 0.4999999702 134217728 0 0
 ( 296 616 512 ) ( 296 616 448 ) ( 328 616 448 ) base_trim/deeprust 144 0 0 -0.5 0.5 134217728 0 0
 ( 296 576 512 ) ( 296 616 288 ) ( 296 616 512 ) base_trim/deeprust -192 0 0 0.5 0.5 134217728 0 0
 ( 328 576 288 ) ( 328 616 448 ) ( 296 616 448 ) base_trim/deeprust 144 0 0 -0.5 0.5 134217728 0 0
@@ -18627,16 +18628,16 @@ cosmo_light/dmask1_red
 }
 // brush 2052
 {
-( 296 616 512 ) ( 232 576 512 ) ( 232 616 512 ) common/caulk 7.9995117188 8.0004882813 0 -0.4999999702 0.4999999702 134217728 0 0
+( 296 616 512 ) ( 232 576 512 ) ( 232 616 512 ) common/caulk 7.9995117188 8.0004882812 0 -0.4999999702 0.4999999702 134217728 0 0
 ( 232 616 288 ) ( 296 616 512 ) ( 232 616 512 ) gothic_light/ironcrossltred_4000 80 0 0 -0.5 0.5 134217728 0 0
-( 232 576 512 ) ( 232 616 288 ) ( 232 616 512 ) common/caulk -8.0004882813 0 0 0.4999999702 0.4999999702 134217728 0 0
+( 232 576 512 ) ( 232 616 288 ) ( 232 616 512 ) common/caulk -8.0004882812 0 0 0.4999999702 0.4999999702 134217728 0 0
 ( 296 608 448 ) ( 232 568 448 ) ( 296 568 448 ) base_trim/deeprust -47.9999847412 176.0005493164 0 -0.4999999404 0.4999999404 134217728 0 0
 ( 232 576 288 ) ( 296 576 512 ) ( 296 576 288 ) common/caulk 7.9995117188 0 0 -0.4999999702 0.4999999702 134217728 0 0
-( 296 576 512 ) ( 296 616 288 ) ( 296 576 288 ) common/caulk -8.0004882813 0 0 0.4999999702 0.4999999702 134217728 0 0
+( 296 576 512 ) ( 296 616 288 ) ( 296 576 288 ) common/caulk -8.0004882812 0 0 0.4999999702 0.4999999702 134217728 0 0
 }
 // brush 2053
 {
-( 424 616 512 ) ( 392 576 512 ) ( 392 616 512 ) common/caulk 27.9997558594 8.0004882813 0 -0.4999999702 0.4999999702 134217728 0 0
+( 424 616 512 ) ( 392 576 512 ) ( 392 616 512 ) common/caulk 27.9997558594 8.0004882812 0 -0.4999999702 0.4999999702 134217728 0 0
 ( 392 616 512 ) ( 392 616 448 ) ( 424 616 448 ) base_trim/deeprust 80 0 0 -0.5 0.5 134217728 0 0
 ( 392 576 512 ) ( 392 616 288 ) ( 392 616 512 ) base_trim/deeprust -192 0 0 0.5 0.5 134217728 0 0
 ( 424 576 288 ) ( 424 616 448 ) ( 392 616 448 ) base_trim/deeprust 80 0 0 -0.5 0.5 134217728 0 0
@@ -18708,7 +18709,7 @@ cosmo_light/dmask1_red
 }
 // brush 2061
 {
-( 232 616 512 ) ( 200 576 512 ) ( 200 616 512 ) common/caulk 7.9995117188 8.0004882813 0 -0.4999999702 0.4999999702 134217728 0 0
+( 232 616 512 ) ( 200 576 512 ) ( 200 616 512 ) common/caulk 7.9995117188 8.0004882812 0 -0.4999999702 0.4999999702 134217728 0 0
 ( 200 616 512 ) ( 200 616 448 ) ( 232 616 448 ) base_trim/deeprust -48 0 0 -0.5 0.5 134217728 0 0
 ( 200 576 512 ) ( 200 616 288 ) ( 200 616 512 ) base_trim/deeprust -192 0 0 0.5 0.5 134217728 0 0
 ( 232 576 288 ) ( 232 616 448 ) ( 200 616 448 ) base_trim/deeprust -48 0 0 -0.5 0.5 134217728 0 0
@@ -19257,11 +19258,11 @@ cosmo_light/dmask1_red
 }
 // brush 2122
 {
-( 1891 -1704 358 ) ( 1891 -1688 358 ) ( 1984 -1688 424 ) common/caulk -24.0000019073 -8.0004882813 180 0.4999999702 0.4999999702 134217728 0 0
+( 1891 -1704 358 ) ( 1891 -1688 358 ) ( 1984 -1688 424 ) common/caulk -24.0000019073 -8.0004882812 180 0.4999999702 0.4999999702 134217728 0 0
 ( 1891 -1704 300 ) ( 1891 -1688 300 ) ( 1891 -1688 358 ) common/caulk -24.0000019073 -16 0 -0.4999999702 0.4999999702 134217728 0 0
-( 1904 -1688 416 ) ( 1904 -1688 320 ) ( 1992 -1688 416 ) base_wall/patch10_beatup2 8.0004882813 -16 0 -0.4999999404 0.4999999404 134217728 0 0
+( 1904 -1688 416 ) ( 1904 -1688 320 ) ( 1992 -1688 416 ) base_wall/patch10_beatup2 8.0004882812 -16 0 -0.4999999404 0.4999999404 134217728 0 0
 ( 1891 -1688 300 ) ( 1891 -1704 300 ) ( 1984 -1688 424 ) base_wall/patch10_beatup2 -24.0000019073 0 0 -0.4999999404 0.4999999404 134217728 0 0
-( 1992 -1704 320 ) ( 1904 -1704 320 ) ( 1992 -1704 416 ) base_wall/patch10_beatup2 8.0004882813 -16 0 -0.4999999404 0.4999999404 134217728 0 0
+( 1992 -1704 320 ) ( 1904 -1704 320 ) ( 1992 -1704 416 ) base_wall/patch10_beatup2 8.0004882812 -16 0 -0.4999999404 0.4999999404 134217728 0 0
 }
 // brush 2123
 {
@@ -19983,9 +19984,9 @@ cosmo_light/dmask1_red
 }
 // brush 2202
 {
-( 1408 -2240 192 ) ( 1392 -2240 192 ) ( 1392 -2160 136 ) common/caulk -24.0000019073 -8.0004882813 180 0.4999999702 0.4999999702 134217728 0 0
+( 1408 -2240 192 ) ( 1392 -2240 192 ) ( 1392 -2160 136 ) common/caulk -24.0000019073 -8.0004882812 180 0.4999999702 0.4999999702 134217728 0 0
 ( 1440 -2160 136 ) ( 1392 -2160 136 ) ( 1440 -2160 88 ) common/caulk -24.0000019073 -16 0 -0.4999999702 0.4999999702 134217728 0 0
-( 1408 -2160 184 ) ( 1408 -2160 88 ) ( 1408 -2248 184 ) common/caulk 8.0004882813 -16 0 -0.4999999404 0.4999999404 134217728 0 0
+( 1408 -2160 184 ) ( 1408 -2160 88 ) ( 1408 -2248 184 ) common/caulk 8.0004882812 -16 0 -0.4999999404 0.4999999404 134217728 0 0
 ( 1392 -2240 192 ) ( 1408 -2240 192 ) ( 1408 -2160 88 ) evil1_walls/cementwall -24.0000019073 0 0 -0.4999999404 0.4999999404 134217728 0 0
 ( 1392 -2248 88 ) ( 1392 -2160 88 ) ( 1392 -2248 184 ) evil1_walls/cementwall 0 0 0 0.5 0.5 134217728 0 0
 }
@@ -19999,11 +20000,11 @@ cosmo_light/dmask1_red
 }
 // brush 2204
 {
-( 2080 -1688 356 ) ( 2080 -1704 356 ) ( 1984 -1704 424 ) common/caulk -24.0000019073 -8.0004882813 180 0.4999999702 0.4999999702 134217728 0 0
+( 2080 -1688 356 ) ( 2080 -1704 356 ) ( 1984 -1704 424 ) common/caulk -24.0000019073 -8.0004882812 180 0.4999999702 0.4999999702 134217728 0 0
 ( 2080 -1688 300 ) ( 2080 -1704 300 ) ( 2080 -1704 356 ) common/caulk -24.0000019073 -16 0 -0.4999999702 0.4999999702 134217728 0 0
-( 2064 -1704 416 ) ( 2064 -1704 320 ) ( 1976 -1704 416 ) base_wall/patch10_beatup2 8.0004882813 -16 0 -0.4999999404 0.4999999404 134217728 0 0
+( 2064 -1704 416 ) ( 2064 -1704 320 ) ( 1976 -1704 416 ) base_wall/patch10_beatup2 8.0004882812 -16 0 -0.4999999404 0.4999999404 134217728 0 0
 ( 2080 -1704 300 ) ( 2080 -1688 300 ) ( 1984 -1704 424 ) base_wall/patch10_beatup2 -24.0000019073 0 0 -0.4999999404 0.4999999404 134217728 0 0
-( 1976 -1688 320 ) ( 2064 -1688 320 ) ( 1976 -1688 416 ) base_wall/patch10_beatup2 8.0004882813 -16 0 -0.4999999404 0.4999999404 134217728 0 0
+( 1976 -1688 320 ) ( 2064 -1688 320 ) ( 1976 -1688 416 ) base_wall/patch10_beatup2 8.0004882812 -16 0 -0.4999999404 0.4999999404 134217728 0 0
 }
 // brush 2205
 {
@@ -20170,11 +20171,11 @@ cosmo_light/dmask1_red
 }
 // brush 2222
 {
-( 1392 -2240 608 ) ( 1376 -2240 608 ) ( 1376 -2160 552 ) common/caulk -24.0000019073 -8.0004882813 180 0.4999999702 0.4999999702 134217728 0 0
+( 1392 -2240 608 ) ( 1376 -2240 608 ) ( 1376 -2160 552 ) common/caulk -24.0000019073 -8.0004882812 180 0.4999999702 0.4999999702 134217728 0 0
 ( 1424 -2160 552 ) ( 1376 -2160 552 ) ( 1424 -2160 504 ) common/caulk -24.0000019073 -16 0 -0.4999999702 0.4999999702 134217728 0 0
-( 1392 -2160 600 ) ( 1392 -2160 504 ) ( 1392 -2248 600 ) base_wall/patch10_beatup2 8.0004882813 -16 0 -0.4999999404 0.4999999404 134217728 0 0
+( 1392 -2160 600 ) ( 1392 -2160 504 ) ( 1392 -2248 600 ) base_wall/patch10_beatup2 8.0004882812 -16 0 -0.4999999404 0.4999999404 134217728 0 0
 ( 1376 -2240 608 ) ( 1392 -2240 608 ) ( 1392 -2160 504 ) base_wall/patch10_beatup2 -24.0000019073 0 0 -0.4999999404 0.4999999404 134217728 0 0
-( 1376 -2248 504 ) ( 1376 -2160 504 ) ( 1376 -2248 600 ) base_wall/patch10_beatup2 8.0004882813 -16 0 -0.4999999404 0.4999999404 134217728 0 0
+( 1376 -2248 504 ) ( 1376 -2160 504 ) ( 1376 -2248 600 ) base_wall/patch10_beatup2 8.0004882812 -16 0 -0.4999999404 0.4999999404 134217728 0 0
 }
 // brush 2223
 {
@@ -21715,14 +21716,16 @@ gothic_wall/oct20c
 // entity 13
 {
 "classname" "team_CTF_blueflag"
-"origin" "1704 800 40"
+"origin" "1704 800 24"
 "gametype" "dd"
+"notfree" "1"
 }
 // entity 14
 {
 "classname" "team_CTF_redflag"
 "origin" "-1696 -800 40"
 "gametype" "dd"
+"notfree" "1"
 }
 // entity 15
 {
@@ -21743,7 +21746,7 @@ gothic_wall/oct20c
 // entity 17
 {
 "classname" "ammo_bullets"
-"origin" "-896 288 0"
+"origin" "-896 288 -64"
 "targetname" "ammo_bullets"
 "random" "5"
 "count" "100"
@@ -21765,9 +21768,7 @@ gothic_wall/oct20c
 // entity 20
 {
 "classname" "item_health_mega"
-"origin" "-2464 1440 208"
-"random" "25"
-"wait" "40"
+"origin" "-2464 1440 192"
 }
 // entity 21
 {
@@ -21779,7 +21780,7 @@ gothic_wall/oct20c
 // entity 22
 {
 "classname" "ammo_cells"
-"origin" "-2048 784 304"
+"origin" "-2048 784 280"
 }
 // entity 23
 {
@@ -21791,12 +21792,12 @@ gothic_wall/oct20c
 // entity 24
 {
 "classname" "ammo_shells"
-"origin" "-1112 2088 64"
+"origin" "-1112 2088 48"
 }
 // entity 25
 {
 "classname" "weapon_lightning"
-"origin" "-1048 1160 320"
+"origin" "-1048 1160 304"
 }
 // entity 26
 {
@@ -21836,34 +21837,32 @@ gothic_wall/oct20c
 // entity 31
 {
 "classname" "item_health_mega"
-"origin" "2464 -1440 208"
-"random" "25"
-"wait" "40"
+"origin" "2464 -1440 192"
 }
 // entity 32
 {
 "classname" "ammo_cells"
-"origin" "2048 -784 296"
+"origin" "2048 -784 280"
 }
 // entity 33
 {
 "classname" "weapon_lightning"
-"origin" "1032 -1160 320"
+"origin" "1032 -1160 304"
 }
 // entity 34
 {
 "classname" "ammo_shells"
-"origin" "1120 -2080 56"
+"origin" "1120 -2080 48"
 }
 // entity 35
 {
 "classname" "weapon_shotgun"
-"origin" "248 -2240 48"
+"origin" "248 -2240 8"
 }
 // entity 36
 {
 "classname" "ammo_bullets"
-"origin" "896 -288 16"
+"origin" "896 -288 -56"
 }
 // entity 37
 {
@@ -21873,18 +21872,18 @@ gothic_wall/oct20c
 // entity 38
 {
 "classname" "item_health"
-"origin" "768 0 16"
+"origin" "768 0 -72"
 }
 // entity 39
 {
 "classname" "item_armor_combat"
-"origin" "1720 824 32"
+"origin" "1720 824 16"
 "!gametype" "harvester dd dom"
 }
 // entity 40
 {
 "classname" "item_armor_combat"
-"origin" "-1720 -824 32"
+"origin" "-1720 -824 16"
 "!gametype" "harvester dd dom"
 }
 // entity 41
@@ -21904,158 +21903,155 @@ gothic_wall/oct20c
 // entity 43
 {
 "classname" "weapon_rocketlauncher"
-"origin" "800 1024 40"
-"random" "7"
+"origin" "800 1024 16"
 }
 // entity 44
 {
 "classname" "weapon_rocketlauncher"
-"origin" "-816 -1024 40"
-"random" "7"
+"origin" "-816 -1024 16"
 }
 // entity 45
 {
 "classname" "item_armor_shard"
-"origin" "-744 -864 56"
+"origin" "-744 -864 8"
 }
 // entity 46
 {
 "classname" "item_armor_shard"
-"origin" "-744 -736 56"
+"origin" "-744 -736 8"
 }
 // entity 47
 {
 "classname" "item_armor_shard"
-"origin" "-744 -800 56"
+"origin" "-744 -800 8"
 }
 // entity 48
 {
 "classname" "item_armor_shard"
-"origin" "760 864 56"
+"origin" "760 864 8"
 }
 // entity 49
 {
 "classname" "item_armor_shard"
-"origin" "760 800 56"
+"origin" "760 800 8"
 }
 // entity 50
 {
 "classname" "item_armor_shard"
-"origin" "760 736 56"
+"origin" "760 736 8"
 }
 // entity 51
 {
 "classname" "item_health"
-"origin" "232 960 56"
+"origin" "232 960 8"
 }
 // entity 52
 {
 "classname" "item_health"
-"origin" "-200 -992 56"
+"origin" "-200 -992 8"
 }
 // entity 53
 {
 "classname" "item_health"
-"origin" "800 -832 320"
+"origin" "800 -832 304"
 }
 // entity 54
 {
 "classname" "item_health"
-"origin" "-800 832 320"
+"origin" "-800 832 304"
 }
 // entity 55
 {
 "classname" "ammo_rockets"
-"origin" "-1648 -96 -32"
+"origin" "-1648 -96 -48"
 }
 // entity 56
 {
 "classname" "ammo_rockets"
-"origin" "1648 104 -32"
+"origin" "1648 104 -48"
 }
 // entity 57
 {
 "classname" "ammo_slugs"
-"origin" "-528 -1008 24"
+"origin" "-528 -1008 16"
 }
 // entity 58
 {
 "classname" "ammo_slugs"
-"origin" "528 1008 24"
+"origin" "528 1008 16"
 }
 // entity 59
 {
 "classname" "ammo_rockets"
-"origin" "1624 -1320 40"
+"origin" "1624 -1320 0"
 }
 // entity 60
 {
 "classname" "ammo_lightning"
-"origin" "1560 -1384 40"
+"origin" "1560 -1384 0"
 }
 // entity 61
 {
 "classname" "ammo_rockets"
-"origin" "-1624 1320 40"
+"origin" "-1624 1320 0"
 }
 // entity 62
 {
 "classname" "ammo_lightning"
-"origin" "-1560 1384 40"
+"origin" "-1560 1384 0"
 }
 // entity 63
 {
 "classname" "ammo_cells"
-"origin" "-1640 -440 40"
+"origin" "-1640 -440 -16"
 }
 // entity 64
 {
 "classname" "ammo_cells"
-"origin" "1664 440 40"
+"origin" "1664 440 -16"
 }
 // entity 65
 {
 "classname" "item_armor_body"
 "origin" "0 0 400"
-"!gametype" "harvester dom"
+"!gametype" "dom"
 }
 // entity 66
 {
 "classname" "item_health"
-"origin" "1792 560 32"
+"origin" "1792 560 0"
 }
 // entity 67
 {
 "classname" "item_health"
-"origin" "1488 896 32"
+"origin" "1488 896 8"
 }
 // entity 68
 {
 "classname" "item_armor_combat"
 "origin" "0 304 -48"
+"team" "middleareanew"
 "wait" "30"
-"random" "15"
-"notta" "1"
 }
 // entity 69
 {
 "classname" "ammo_lightning"
-"origin" "-1088 -1008 32"
+"origin" "-1088 -1008 16"
 }
 // entity 70
 {
 "classname" "item_health"
-"origin" "-1488 -896 32"
+"origin" "-1488 -896 8"
 }
 // entity 71
 {
 "classname" "item_health"
-"origin" "-1840 -560 32"
+"origin" "-1840 -560 8"
 }
 // entity 72
 {
 "classname" "ammo_lightning"
-"origin" "1088 1008 32"
+"origin" "1088 1008 16"
 }
 // entity 73
 {
@@ -22419,19 +22415,19 @@ cosmo_sfx/blood1_decal
 // entity 121
 {
 "classname" "info_player_deathmatch"
-"origin" "1736 712 88"
+"origin" "1736 712 40"
 "angle" "180"
 }
 // entity 122
 {
 "classname" "info_player_deathmatch"
-"origin" "0 -168 424"
+"origin" "0 -168 416"
 "angle" "90"
 }
 // entity 123
 {
 "classname" "info_player_deathmatch"
-"origin" "-1896 768 328"
+"origin" "-1896 768 296"
 "angle" "120"
 }
 // entity 124
@@ -22456,79 +22452,67 @@ cosmo_sfx/blood1_decal
 // entity 126
 {
 "classname" "item_armor_shard"
-"origin" "1328 -544 -32"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
+"origin" "1328 -544 -40"
 }
 // entity 127
 {
 "classname" "item_armor_shard"
-"origin" "1328 -384 -32"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
+"origin" "1328 -384 -64"
 }
 // entity 128
 {
 "classname" "item_armor_shard"
-"origin" "1328 -464 -32"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
+"origin" "1328 -464 -48"
 }
 // entity 129
 {
 "classname" "item_armor_shard"
 "origin" "1280 -1040 -48"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
 }
 // entity 130
 {
 "classname" "item_armor_shard"
-"origin" "1280 -1120 -48"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
+"origin" "1280 -1120 -56"
 }
 // entity 131
 {
 "classname" "item_armor_shard"
 "origin" "1280 -944 -48"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
 }
 // entity 132
 {
 "classname" "item_health"
-"origin" "-592 1296 64"
-"random" "5"
+"origin" "-592 1296 48"
 }
 // entity 133
 {
 "classname" "item_health"
-"origin" "-592 1920 64"
-"random" "5"
+"origin" "-592 1920 48"
 }
 // entity 134
 {
 "classname" "item_health"
 "origin" "584 -1296 56"
-"random" "5"
 }
 // entity 135
 {
 "classname" "item_health"
-"origin" "584 -1920 56"
-"random" "5"
+"origin" "584 -1920 48"
 }
 // entity 136
 {
 "classname" "item_health"
-"origin" "1040 -1160 -32"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
+"origin" "1040 -1160 -64"
 }
 // entity 137
 {
 "classname" "weapon_grenadelauncher"
-"origin" "-760 1864 -16"
-"random" "3"
+"origin" "-760 1864 -64"
 }
 // entity 138
 {
 "classname" "item_health"
-"origin" "-1040 1160 -32"
+"origin" "-1040 1160 -64"
 }
 // entity 139
 {
@@ -22538,12 +22522,12 @@ cosmo_sfx/blood1_decal
 // entity 140
 {
 "classname" "item_armor_shard"
-"origin" "-1280 1120 -48"
+"origin" "-1280 1120 -56"
 }
 // entity 141
 {
 "classname" "item_armor_shard"
-"origin" "-1328 384 -32"
+"origin" "-1328 384 -64"
 }
 // entity 142
 {
@@ -22553,18 +22537,17 @@ cosmo_sfx/blood1_decal
 // entity 143
 {
 "classname" "item_armor_shard"
-"origin" "-1328 544 -32"
+"origin" "-1328 544 -48"
 }
 // entity 144
 {
 "classname" "item_armor_shard"
-"origin" "-1328 464 -32"
+"origin" "-1328 464 -48"
 }
 // entity 145
 {
 "classname" "weapon_grenadelauncher"
-"origin" "736 -1864 -24"
-"random" "3"
+"origin" "736 -1864 -64"
 }
 // entity 146
 {
@@ -22574,131 +22557,128 @@ cosmo_sfx/blood1_decal
 // entity 147
 {
 "classname" "info_player_deathmatch"
-"origin" "-1688 -712 72"
+"origin" "-1688 -712 40"
 }
 // entity 148
 {
 "classname" "info_player_deathmatch"
-"origin" "-184 -728 344"
+"origin" "-184 -728 320"
 }
 // entity 149
 {
 "classname" "info_player_deathmatch"
-"origin" "168 728 344"
+"origin" "168 728 320"
 "angle" "180"
 }
 // entity 150
 {
 "classname" "info_player_deathmatch"
-"origin" "0 168 424"
+"origin" "0 168 416"
 "angle" "270"
 }
 // entity 151
 {
 "classname" "info_player_deathmatch"
-"origin" "-1600 768 -16"
+"origin" "-1600 768 -48"
 "angle" "0"
 }
 // entity 152
 {
 "classname" "info_player_deathmatch"
-"origin" "-1552 0 -16"
+"origin" "-1552 0 -48"
 "angle" "0"
 }
 // entity 153
 {
 "classname" "info_player_deathmatch"
-"origin" "1552 0 -16"
+"origin" "1552 0 -48"
 "angle" "180"
 }
 // entity 154
 {
 "classname" "info_player_deathmatch"
-"origin" "-1984 1512 264"
+"origin" "-1984 1512 256"
 "angle" "180"
 }
 // entity 155
 {
 "classname" "item_armor_shard"
-"origin" "320 1408 64"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
+"origin" "320 1408 8"
 }
 // entity 156
 {
 "classname" "item_armor_shard"
-"origin" "320 1792 64"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
+"origin" "320 1792 8"
 }
 // entity 157
 {
 "classname" "item_armor_shard"
-"origin" "320 1600 64"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
+"origin" "320 1600 8"
 }
 // entity 158
 {
 "classname" "item_armor_shard"
-"origin" "-320 -1408 64"
+"origin" "-320 -1408 8"
 }
 // entity 159
 {
 "classname" "item_armor_shard"
-"origin" "-320 -1600 64"
+"origin" "-320 -1600 8"
 }
 // entity 160
 {
 "classname" "item_armor_shard"
-"origin" "-320 -1792 64"
+"origin" "-320 -1792 8"
 }
 // entity 161
 {
 "classname" "info_player_deathmatch"
-"origin" "880 -224 16"
+"origin" "880 -224 -56"
 "angle" "180"
 }
 // entity 162
 {
 "classname" "info_player_deathmatch"
-"origin" "880 224 16"
+"origin" "880 224 -56"
 "angle" "180"
 }
 // entity 163
 {
 "classname" "info_player_deathmatch"
-"origin" "-880 224 16"
+"origin" "-880 224 -56"
 }
 // entity 164
 {
 "classname" "info_player_deathmatch"
-"origin" "-880 -224 16"
+"origin" "-880 -224 -56"
 }
 // entity 165
 {
 "classname" "domination_point"
-"origin" "0 0 464"
+"origin" "0 0 400"
 "message" "Center Platform"
 }
 // entity 166
 {
 "classname" "domination_point"
-"origin" "-1720 -826 80"
+"origin" "-1720 -826 16"
 "message" "Red Liz"
 }
 // entity 167
 {
 "classname" "domination_point"
-"origin" "1720 822 80"
+"origin" "1720 822 16"
 "message" "Blue Gargoyle"
 }
 // entity 168
 {
 "classname" "info_player_deathmatch"
-"origin" "1992 -1408 296"
+"origin" "1992 -1408 256"
 }
 // entity 169
 {
 "classname" "info_player_deathmatch"
-"origin" "1896 -768 328"
+"origin" "1896 -768 296"
 "angle" "290"
 }
 // entity 170
@@ -22706,48 +22686,44 @@ cosmo_sfx/blood1_decal
 "classname" "team_CTF_blueflag"
 "origin" "976 -1856 -56"
 "!gametype" "dd"
+"notfree" "1"
 }
 // entity 171
 {
 "classname" "team_CTF_redflag"
 "origin" "-976 1856 -56"
 "!gametype" "dd"
+"notfree" "1"
 }
 // entity 172
 {
 "classname" "item_armor_shard"
-"origin" "-1984 1776 280"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
+"origin" "-1984 1776 256"
 }
 // entity 173
 {
 "classname" "item_armor_shard"
-"origin" "-1776 2128 376"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
+"origin" "-1776 2128 352"
 }
 // entity 174
 {
 "classname" "item_armor_shard"
-"origin" "-1856 2056 360"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
+"origin" "-1856 2056 328"
 }
 // entity 175
 {
 "classname" "item_armor_shard"
-"origin" "-1920 1968 344"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
+"origin" "-1920 1968 304"
 }
 // entity 176
 {
 "classname" "item_armor_shard"
-"origin" "-1968 1872 312"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
+"origin" "-1968 1872 288"
 }
 // entity 177
 {
 "classname" "item_regen"
-"origin" "-1000 1600 424"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
+"origin" "-1000 1600 408"
 }
 // entity 178
 {
@@ -22773,47 +22749,41 @@ cosmo_sfx/blood1_decal
 {
 "classname" "weapon_plasmagun"
 "origin" "-224 1600 16"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
 }
 // entity 181
 {
 "classname" "ammo_bullets"
 "origin" "-192 1544 16"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
 }
 // entity 182
 {
 "classname" "ammo_lightning"
 "origin" "-192 1656 16"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
 }
 // entity 183
 {
 "classname" "ammo_cells"
-"origin" "768 -1160 -32"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
+"origin" "768 -1160 -64"
 }
 // entity 184
 {
 "classname" "weapon_railgun"
-"origin" "2048 -960 296"
-"random" "5"
+"origin" "2048 -960 280"
 }
 // entity 185
 {
 "classname" "ammo_grenades"
-"origin" "-320 -2304 64"
+"origin" "-320 -2304 8"
 }
 // entity 186
 {
 "classname" "weapon_railgun"
-"origin" "-2048 960 304"
-"random" "5"
+"origin" "-2048 960 280"
 }
 // entity 187
 {
 "classname" "item_regen"
-"origin" "1000 -1600 424"
+"origin" "1000 -1600 408"
 }
 // entity 188
 {
@@ -22833,13 +22803,12 @@ cosmo_sfx/blood1_decal
 // entity 191
 {
 "classname" "weapon_shotgun"
-"origin" "-264 2240 56"
+"origin" "-264 2240 8"
 }
 // entity 192
 {
 "classname" "ammo_grenades"
-"origin" "320 2304 64"
-"rotation" "-1 0 0 0 -1 0 0 0 1 "
+"origin" "320 2304 8"
 }
 // entity 193
 {
@@ -22870,85 +22839,83 @@ cosmo_sfx/blood1_decal
 // entity 196
 {
 "classname" "item_health"
-"origin" "-768 0 16"
+"origin" "-768 0 -80"
 }
 // entity 197
 {
 "classname" "ammo_cells"
-"origin" "-768 1160 -32"
+"origin" "-768 1160 -64"
 }
 // entity 198
 {
 "classname" "item_armor_shard"
-"origin" "432 -1472 416"
+"origin" "432 -1472 400"
 }
 // entity 199
 {
 "classname" "item_armor_shard"
-"origin" "432 -1728 416"
+"origin" "432 -1728 400"
 }
 // entity 200
 {
 "classname" "item_armor_shard"
-"origin" "432 -1648 416"
+"origin" "432 -1648 400"
 }
 // entity 201
 {
 "classname" "item_armor_shard"
-"origin" "432 -1552 416"
+"origin" "432 -1552 400"
 }
 // entity 202
 {
 "classname" "item_armor_shard"
-"origin" "-416 1648 416"
+"origin" "-416 1648 400"
 }
 // entity 203
 {
 "classname" "item_armor_shard"
-"origin" "-416 1472 416"
+"origin" "-416 1472 400"
 }
 // entity 204
 {
 "classname" "item_armor_shard"
-"origin" "-416 1728 416"
+"origin" "-416 1728 400"
 }
 // entity 205
 {
 "classname" "item_armor_shard"
-"origin" "-416 1552 416"
+"origin" "-416 1552 400"
 }
 // entity 206
 {
 "classname" "item_haste"
 "origin" "0 -312 -48"
-"wait" "40"
-"random" "15"
-"!gametype" "oneflag obelisk harvester pos"
+"!gametype" "oneflag harvester pos"
 }
 // entity 207
 {
 "classname" "item_armor_shard"
-"origin" "1984 -1768 280"
+"origin" "1984 -1768 256"
 }
 // entity 208
 {
 "classname" "item_armor_shard"
-"origin" "1776 -2120 376"
+"origin" "1776 -2120 352"
 }
 // entity 209
 {
 "classname" "item_armor_shard"
-"origin" "1856 -2048 360"
+"origin" "1856 -2048 328"
 }
 // entity 210
 {
 "classname" "item_armor_shard"
-"origin" "1920 -1960 344"
+"origin" "1920 -1960 304"
 }
 // entity 211
 {
 "classname" "item_armor_shard"
-"origin" "1968 -1864 312"
+"origin" "1968 -1864 280"
 }
 // entity 212
 {
@@ -23023,32 +22990,32 @@ cosmo_sfx/blood1_decal
 // entity 222
 {
 "classname" "weapon_shotgun"
-"origin" "1304 -720 -32"
+"origin" "1304 -720 -48"
 }
 // entity 223
 {
 "classname" "weapon_shotgun"
-"origin" "1120 -2296 456"
+"origin" "1120 -2296 432"
 }
 // entity 224
 {
 "classname" "weapon_shotgun"
-"origin" "-1120 2296 456"
+"origin" "-1120 2296 432"
 }
 // entity 225
 {
 "classname" "weapon_shotgun"
-"origin" "-1328 720 -40"
+"origin" "-1328 720 -48"
 }
 // entity 226
 {
 "classname" "ammo_rockets"
-"origin" "-544 832 320"
+"origin" "-544 832 304"
 }
 // entity 227
 {
 "classname" "ammo_rockets"
-"origin" "536 -832 320"
+"origin" "536 -832 304"
 }
 // entity 228
 {
@@ -23164,17 +23131,20 @@ cosmo_sfx/blood1_decal
 {
 "classname" "holdable_kamikaze"
 "origin" "0 304 -48"
-"notq3a" "1"
+"team" "middleareanew"
+"wait" "30"
 }
 // entity 239
 {
 "classname" "team_blueobelisk"
 "origin" "976 -1856 -80"
+"notfree" "1"
 }
 // entity 240
 {
 "classname" "team_redobelisk"
 "origin" "-976 1856 -80"
+"notfree" "1"
 }
 // entity 241
 {
@@ -23184,7 +23154,7 @@ cosmo_sfx/blood1_decal
 // entity 242
 {
 "classname" "info_player_deathmatch"
-"origin" "1600 -768 -16"
+"origin" "1600 -768 -48"
 "angle" "180"
 }
 // entity 243
