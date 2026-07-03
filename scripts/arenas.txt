@@ -146,7 +146,7 @@
 	longname	"Lava House Of Thon"
 	bots		"angelyss"
 	fraglimit	"15"
-	type		"single ffa lms"
+	type		"single ffa lms tourney elimination dd pos"
 }
 //Tier 7
 {	map		"wrackdm17"

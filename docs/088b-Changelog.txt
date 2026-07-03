@@ -106,6 +106,20 @@ Classic UI: https://files.poulsander.com/~poul19/public_files/oa/dev088/gamecode
   - Changed all launchpads with the Hydronex jumppad models. Allows for better control.
   - Fixed wrong texture direction in jumppads.
   - Lower teleporters now have the same textures as the upper ones.
+* ce1m7
+  - Autocaulked the map.
+  - Added location names.
+  - Added intermission spot.
+  - Added music track.
+  - Added a new jumppad in the entrance area.
+  - Map can now be played in Tournament, Double Domination, Elimination and Possession.
+  - Double Domination: Each point is located in the upper level, at each extreme of the lava pool.
+  - Double Domination: Quad, Megahealth and area Shotgun are unavailable in the mode.
+  - Double Domination: Added spawnrooms for each team containing all of the level's weapons.
+  - Elimination: Red team starts at the entrance area, Blue team on the opposite side.
+  - Elimination: The bridge button is unavailable in the mode.
+  - Possession: The Quad is unavailable in the mode, as that's the flag's spawnpoint.
+  - Other minor adjustments.
 * czest2ctf
   - New Double Domination scramble: both points moved to the center area, one at the top and one at the bottom. Both teams start at their respective spawnrooms.
   - Fixed team and neutral obelisk/flag gametype properties.
