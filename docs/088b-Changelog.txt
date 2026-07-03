@@ -115,6 +115,7 @@ Classic UI: https://files.poulsander.com/~poul19/public_files/oa/dev088/gamecode
   - Added weapon/item SFX.
   - Added jumppad SFX.
   - Added a new jumppad in the entrance area.
+  - Unearthed many buried items that were buried on the floor.
   - Map can now be selected in the menu for Tournament, Double Domination, Elimination and Possession matches.
   - Double Domination: Each point is located in the upper level, at each extreme of the lava pool.
   - Double Domination: Quad, Megahealth and area Shotgun are unavailable in the mode.
