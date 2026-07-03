@@ -11,7 +11,7 @@ zip.exe -9r pak6-patch088b-%now%.pk3 docs/*
 zip.exe -9r pak6-patch088b-%now%.pk3 levelshots/*
 zip.exe -9r pak6-patch088b-%now%.pk3 maps/*
 zip.exe -9r pak6-patch088b-%now%.pk3 models/*
-zip.exe -9r pak6-patch088b-%now%.pk3 music/*
+#zip.exe -9r pak6-patch088b-%now%.pk3 music/*
 zip.exe -9r pak6-patch088b-%now%.pk3 scripts/*
 zip.exe -9r pak6-patch088b-%now%.pk3 sources/*
 #zip.exe -9r pak6-patch088b-%now%.pk3 sound/*
