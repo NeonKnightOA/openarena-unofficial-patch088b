@@ -148,8 +148,6 @@ Classic UI: https://files.poulsander.com/~poul19/public_files/oa/dev088/gamecode
 * hydronex
   - Uses 071hydronex from the Older Versions pack as a base.
   - Fixed team and neutral obelisk/flag gametype properties.
-* hydronex2
-  - Fixed team and neutral obelisk/flag gametype properties.
 * mlctf1beta
   - Uses oac_encephalo as a base, which includes the fixes from the map patch.
   - Recompiled the lights model.
