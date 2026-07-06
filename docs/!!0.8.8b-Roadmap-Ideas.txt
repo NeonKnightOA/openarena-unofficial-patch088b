@@ -102,6 +102,16 @@
 == hydronex ==
 * Idea: Add new weapon/item layout, hopefully better than the previous one.
 
+== hydronex2 (WIP) ==
+* Fix floating obelisks (solves a problem with Harvester).
+* Improve overall level geometry, should lead to better FPS stability.
+* Fix gametype flags. (Unlocks support for Possession).
+* Remove DOM support.
+* Redo weapon/item placement.
+* Make base spawnrooms only work in Double Domination mode.
+* Add weapon/item SFX.
+* Add launchpad SFX.
+
 == islandctf ==
 * Use r951 SVN version as a base.
 * Add Intermission spot.

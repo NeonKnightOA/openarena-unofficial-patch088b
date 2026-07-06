@@ -129,6 +129,15 @@ Classic UI: https://files.poulsander.com/~poul19/public_files/oa/dev088/gamecode
   - Fixed team and neutral obelisk/flag gametype properties.
   - Quad will now spawn in all gamemodes except Possession (OA3), Harvester and One Flag CTF.
   - Lower level +50 Health will not spawn in Double Domination.
+* czest3ctf
+  - Fixed team and neutral obelisk/flag gametype properties.
+  - Relit the level.
+  - Increased height of secret Invisibility areas so players don't get hit in the head.
+  - Added new bridge at each team's outdoor areas.
+  - Added arrows guiding to each base.
+  - Added weapon/item SFX.
+  - In Double Domination, both teams will spawn at the outdoors areas.
+  - More minor changes.
 * fan
   - Uses 071fan from the Older Versions pack as a base.
   - Lower floor, pit and walls all redone.
@@ -138,6 +147,8 @@ Classic UI: https://files.poulsander.com/~poul19/public_files/oa/dev088/gamecode
   - Minor cosmetic level changes.
 * hydronex
   - Uses 071hydronex from the Older Versions pack as a base.
+  - Fixed team and neutral obelisk/flag gametype properties.
+* hydronex2
   - Fixed team and neutral obelisk/flag gametype properties.
 * mlctf1beta
   - Uses oac_encephalo as a base, which includes the fixes from the map patch.
@@ -156,16 +167,6 @@ Classic UI: https://files.poulsander.com/~poul19/public_files/oa/dev088/gamecode
   - Combat Armor in middle area now shares a team with Kamikaze.
   - Removed "random", "rotation" and "wait" keys from all items except the aforementioned team of items in midfield.
   - ISSUE: Cannot build .aas file.
-* czest3ctf
-  - Fixed team and neutral obelisk/flag gametype properties.
-  - Relit the level.
-  - Increased height of secret Invisibility areas so players don't get hit in the head.
-  - Added new bridge at each team's outdoor areas.
-  - Added arrows guiding to each base.
-  - In Double Domination, both teams will spawn at the outdoors areas.
-  - More minor changes.
-* hydronex2
-  - Fixed team and neutral obelisk/flag gametype properties.
 * oa_koth2
   - Uses the map patch from the Map Patches pack as a base.
 * oa_shouse

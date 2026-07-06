@@ -1,6 +1,6 @@
 textures/ctf/blue_telep
 {
-	//qer_trans 0.99
+	qer_trans 0.5
 	q3map_lightimage textures/effects/jumpcircblue.tga
 	surfaceparm noimpact
 	surfaceparm nolightmap
@@ -30,7 +30,7 @@ textures/ctf/blue_telep
 // blue_telep2 is used in oa_ctf4ish
 textures/ctf/blue_telep2
 {
-	qer_trans 0.99
+	qer_trans 0.5
 	qer_editorimage textures/effects/jumpcircblue.tga
 	q3map_lightimage textures/effects/jumpcircblue.tga
 	surfaceparm nonsolid
@@ -61,7 +61,7 @@ textures/ctf/blue_telep2
 
 textures/ctf/blue_telep2-alt
 {
-	qer_trans 0.99
+	qer_trans 0.5
 	qer_editorimage textures/ctf/blue_telep2.tga
 	q3map_lightimage textures/ctf/blue_telep2.tga
 	surfaceparm noimpact
@@ -152,7 +152,7 @@ textures/ctf/neutral_telep2-alt
 
 textures/ctf/red_telep
 {
-	//qer_trans 0.99
+	qer_trans 0.5
 	q3map_lightimage textures/effects/jumpcircred.tga
 	surfaceparm noimpact
 	surfaceparm nolightmap
@@ -182,7 +182,7 @@ textures/ctf/red_telep
 // red_telep2 is used in oa_ctf4ish
 textures/ctf/red_telep2
 {
-	qer_trans 0.99
+	qer_trans 0.5
 	qer_editorimage textures/effects/jumpcircred.tga
 	q3map_lightimage textures/effects/jumpcircred.tga
 	surfaceparm nonsolid
@@ -213,7 +213,7 @@ textures/ctf/red_telep2
 
 textures/ctf/red_telep2-alt
 {
-	qer_trans 0.99
+	qer_trans 0.5
 	qer_editorimage textures/ctf/red_telep2.tga
 	q3map_lightimage textures/ctf/red_telep2.tga
 	surfaceparm noimpact
