@@ -51,11 +51,6 @@
 * Add Intermission spot.
 * Add music track.
 
-== ctf_gate1 ==
-* Fix team and neutral obelisk/flag gametype properties.
-* Add music track.
-* Idea: Add support for One Flag CTF and Harvester.
-
 == ctf_inyard ==
 * Fix team and neutral obelisk/flag gametype properties.
 * Add Intermission spot.

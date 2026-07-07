@@ -229,7 +229,7 @@
 }
 {	map		"ctf_gate1"
 	longname	"Outer Gates"
-	type		"ctf elimination ctfelimination dd dom"
+	type		"ctf oneflag harvester overload elimination ctfelimination dd dom pos"
 }
 {	map		"ctf_inyard"
 	longname	"Inner Yard"
