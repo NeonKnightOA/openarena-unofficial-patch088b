@@ -218,10 +218,6 @@
 * Check for items not showing in SP.
 * Add Intermission spot.
 
-== oa_koth2 ==
-* Add location names.
-* Idea: Change Intermission spot to a better place.
-
 == oa_minia ==
 * Idea: Add support for Harvester.
 
