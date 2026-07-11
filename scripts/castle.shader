@@ -166,6 +166,7 @@ textures/castle/terrain.vertex
 
 textures/castle/ter_rock-mud
 {
+	qer_editorImage textures/organics/pjrock7d.jpg
 	q3map_nonplanar
 	q3map_shadeangle 180
 	q3map_tcGen ivector ( 256 0 0 ) ( 0 256 0 )

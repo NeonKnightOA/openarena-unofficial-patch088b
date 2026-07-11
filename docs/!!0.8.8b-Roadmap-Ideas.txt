@@ -238,11 +238,6 @@
 * Add location names.
 * Add music track.
 
-== oa_shouse ==
-* Check for items not showing in SP.
-* Add location names.
-* Idea: Add support for Harvester.
-
 == oa_spirit3 ==
 * Idea: Add support for One Flag CTF and Harvester.
 * Idea: Add support for Double Domination.

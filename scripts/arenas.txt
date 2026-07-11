@@ -128,7 +128,7 @@
 	longname	"Strange House"
 	bots		"dark murielle"
 	fraglimit	"20"
-	type		"single ffa lms team elimination tourney dd dom"
+	type		"single ffa lms team elimination tourney dd dom pos"
 }
 {	map		"oa_dm4"
 	longname	"A Bad Place"
