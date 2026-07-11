@@ -200,7 +200,7 @@
 }
 {	map		"am_underworks"
 	longname	"Under Working"
-	type		"ffa lms team tourney"
+	type		"ffa lms team tourney elimination pos"
 }
 // CTF maps
 {	map		"am_lavactf"
@@ -324,4 +324,3 @@
 	type		"ctf oneflag harvester overload elimination ctfelimination dd"
 }
 
-// See which maps were dummied out in the wiki.
