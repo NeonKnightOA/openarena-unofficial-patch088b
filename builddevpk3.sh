@@ -6,15 +6,16 @@
 now=$(date +"%Y_%m_%d")
 
 echo Compressing...
-./zip -9r pak6-patch088b-${now}.pk3 docs/*
-./zip -9r pak6-patch088b-${now}.pk3 levelshots/*
-./zip -9r pak6-patch088b-${now}.pk3 maps/*
-./zip -9r pak6-patch088b-${now}.pk3 models/*
-#./zip -9r pak6-patch088b-${now}.pk3 music/*
-./zip -9r pak6-patch088b-${now}.pk3 scripts/*
-./zip -9r pak6-patch088b-${now}.pk3 sources/*
-#./zip -9r pak6-patch088b-${now}.pk3 sound/*
-./zip -9r pak6-patch088b-${now}.pk3 textures/*
+./zip -9r pak6-patch088b-${now}-temp.pk3 docs/*
+./zip -9r pak6-patch088b-${now}-temp.pk3 levelshots/*
+./zip -9r pak6-patch088b-${now}-temp.pk3 maps/*
+./zip -9r pak6-patch088b-${now}-temp.pk3 models/*
+#./zip -9r pak6-patch088b-${now}-temp.pk3 music/*
+./zip -9r pak6-patch088b-${now}-temp.pk3 scripts/*
+./zip -9r pak6-patch088b-${now}-temp.pk3 sources/*
+#./zip -9r pak6-patch088b-${now}-temp.pk3 sound/*
+./zip -9r pak6-patch088b-${now}-temp.pk3 textures/*
+mv pak6-patch088b-${now}-temp.pk3 pak6-patch088b-${now}.pk3
 echo Done
 
 exit 0

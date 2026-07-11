@@ -159,9 +159,11 @@ Classic UI: https://files.poulsander.com/~poul19/public_files/oa/dev088/gamecode
 * oa_bases5
   - Uses 071oa_bases5 from the Older Versions pack as a base.
 * oa_koth2
+  - Uses the map patch from the Map Patches pack as a base.
   - Slightly touched placement of items. (Dropped them to the floor)
   - Added location names for team games.
 * oa_shouse
+  - Uses the map patch from the Map Patches pack as a base.
   - Added DD-specific spawnpoints.
   - Added DOM-specific spawnpoints.
   - Added proper Elimination support. Both teams start at opposite parts of the map.
@@ -179,7 +181,3 @@ Classic UI: https://files.poulsander.com/~poul19/public_files/oa/dev088/gamecode
   - Combat Armor in middle area now shares a team with Kamikaze.
   - Removed "random", "rotation" and "wait" keys from all items except the aforementioned team of items in midfield.
   - ISSUE: Cannot build .aas file.
-* oa_koth2
-  - Uses the map patch from the Map Patches pack as a base.
-* oa_shouse
-  - Uses the map patch from the Map Patches pack as a base.
