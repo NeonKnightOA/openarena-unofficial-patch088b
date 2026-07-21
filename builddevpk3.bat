@@ -17,7 +17,7 @@ zip.exe -9r pak6-patch088b-%now%-temp.pk3 models/*
 zip.exe -9r pak6-patch088b-%now%-temp.pk3 music/*
 zip.exe -9r pak6-patch088b-%now%-temp.pk3 scripts/*
 zip.exe -9r pak6-patch088b-%now%-temp.pk3 sources/*
-zip.exe -9r pak6-patch088b-%now%-temp.pk3 sound/*
+rem zip.exe -9r pak6-patch088b-%now%-temp.pk3 sound/*
 zip.exe -9r pak6-patch088b-%now%-temp.pk3 textures/*
 ren pak6-patch088b-%now%-temp.pk3 pak6-patch088b-%now%.pk3
 echo Done
