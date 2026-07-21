@@ -157,6 +157,7 @@ skyIsland_sun
 
 black
 {
+	qer_editorImage gfx/colors/black.tga
 	cull disable
 	{
 		map gfx/colors/black.tga
@@ -178,6 +179,7 @@ textures/sky_void
 
 textures/black
 {
+	qer_editorImage gfx/colors/black.tga
 	cull disable
 	{
 		map gfx/colors/black.tga

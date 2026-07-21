@@ -1327,6 +1327,7 @@ textures/sfx/portal_sfx_ring
 
 textures/sfx/portal_sfx_static
 {
+	qer_editorImage textures/acc_dm3/portal_sfx.tga
 	portal
 	surfaceparm nolightmap
 	{
