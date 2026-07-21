@@ -3,7 +3,8 @@
 // entity 0
 {
 "classname" "worldspawn"
-"message" "Under Working (0.8.5 version)"
+"message" "Under Working"
+"author" "Neon_Knight"
 "music" "music/OA14.ogg"
 // brush 0
 {
