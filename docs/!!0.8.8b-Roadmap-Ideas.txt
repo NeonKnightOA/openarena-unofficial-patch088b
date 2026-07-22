@@ -4,7 +4,7 @@
 
 == To-Do list (move to Changelog when done) ==
 * Make all the brush-fixed maps use the newer jumppad/teleporter/item base SFX.
-* Make all maps have message, author and music listed.
+* Make all maps have message, author and music listed in worldspawn.
 * Recompile all fixed maps using NRC Q3 Final settings.
 * Give all fixed maps new levelshots. (Ensure that all maps have info_player_intermission)
 * Replace all instances of common/nodraw with common/nodrawnonsolid.
@@ -15,17 +15,18 @@
 * Find and fix all progressive JPEGs.
 * Replace old 0.8.8 CTF banners with newer ones featuring the newer OA logo.
 * Reorganize shaders, delete duplicated shaders.
-* Lower pickup locations to floor level.
+* Lower pickup locations to floor level. Ensure that items that don't need to keep afloat have the SUSPENDED flag removed.
 * Check all maps and properly assign them their respective gamemodes.
 ** Make all maps with the neutral flag be choosable for Possession.
 * Autocaulk all brush-fixed maps.
-* Make all dummied out maps available for the Skirmish/Create Server menus.
-* Add all maps that support 2on2 matches onwards to Team Deathmatch (TDM 2on2 is a thing after all)
-* Make all CTF maps be supported for Overload, Elimination, eCTF and DD.
-* Make all CTF maps with a proper middle area to support 1FCTF and Harvester.
-* Make all short FFA maps support LMS and Tournament.
+* Make all dummied out maps available for the Skirmish/Create Server menus. (The Lost Levels already took care of that)
+* Make all CTF maps support for Overload, Elimination, eCTF and DD.
+** If needed, create spawnrooms for DD.
+* Make all CTF maps with a proper middle area support 1FCTF and Harvester.
+* Make all short FFA maps support LMS and Tournament. Maps that have no problem with 4+ players should also support TDM (as 2on2 TDM is a thing)
 * Make all large FFA maps support TDM and Elimination.
 * Make maps with differentiated areas support Domination.
+* Revise the composition of all the death pits and voids: trigger_multiple+target_speaker with *falling1.wav, trigger_multiple+target_remove_powerups, trigger_hurt with 9999 dmg and the no_protection flag, and nodrop.
 
 == am_galmevish ==
 * Idea: Add grates in the upper levels? (Possibly)
