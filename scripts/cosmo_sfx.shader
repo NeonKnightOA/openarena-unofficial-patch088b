@@ -310,18 +310,39 @@ textures/cosmo_sfx/energy_red
 	}
 }
 
-textures/cosmo_sfx/flag_scimitar_brown1
+textures/cosmo_sfx/flag_oa_blue1
 {
-	qer_editorimage textures/cosmo_sfx/flag_scimitar_brown1.tga
+	qer_editorimage textures/cosmo_sfx/flag_oa_blue1.tga
 	qer_trans 0.99
 	surfaceparm nomarks
 	surfaceparm alphashadow
 	cull none
 	{
-		map textures/cosmo_sfx/flag_scimitar_brown1.tga
+		map textures/cosmo_sfx/flag_oa_blue1.tga
 		blendFunc GL_ONE GL_ZERO
 		alphaFunc GE128
-		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+		rgbGen identity
+	}
+}
+
+textures/cosmo_sfx/flag_oa_blue1_moving
+{
+	qer_editorimage textures/cosmo_sfx/flag_oa_blue1.tga
+	qer_trans 0.99
+	surfaceparm nomarks
+	surfaceparm alphashadow
+	cull none
+ 	deformVertexes wave 128 sin 0 7 0 0.4
+	{
+		map textures/cosmo_sfx/flag_oa_blue1.tga
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
 		rgbGen identity
 	}
 	{
@@ -339,6 +360,28 @@ textures/cosmo_sfx/flag_oa_brown1
 	surfaceparm nomarks
 	surfaceparm alphashadow
 	cull none
+	{
+		map textures/cosmo_sfx/flag_oa_brown1.tga
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+textures/cosmo_sfx/flag_oa_brown1_moving
+{
+	qer_editorimage textures/cosmo_sfx/flag_oa_brown1.tga
+	qer_trans 0.99
+	surfaceparm nomarks
+	surfaceparm alphashadow
+	cull none
+ 	deformVertexes wave 128 sin 0 7 0 0.4
 	{
 		map textures/cosmo_sfx/flag_oa_brown1.tga
 		blendFunc GL_ONE GL_ZERO
@@ -374,17 +417,63 @@ textures/cosmo_sfx/flag_oa_red1
 	}
 }
 
-textures/cosmo_sfx/flag_oa_blue1
+textures/cosmo_sfx/flag_oa_red1_moving
 {
-	qer_editorimage textures/cosmo_sfx/flag_oa_blue1.tga
+	qer_editorimage textures/cosmo_sfx/flag_oa_red1.tga
+	qer_trans 0.99
+	surfaceparm nomarks
+	surfaceparm alphashadow
+	cull none
+ 	deformVertexes wave 128 sin 0 7 0 0.4
+	{
+		map textures/cosmo_sfx/flag_oa_red1.tga
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		rgbGen identity
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+	}
+}
+
+textures/cosmo_sfx/flag_scimitar_brown1
+{
+	qer_editorimage textures/cosmo_sfx/flag_scimitar_brown1.tga
 	qer_trans 0.99
 	surfaceparm nomarks
 	surfaceparm alphashadow
 	cull none
 	{
-		map textures/cosmo_sfx/flag_oa_blue1.tga
+		map textures/cosmo_sfx/flag_scimitar_brown1.tga
 		blendFunc GL_ONE GL_ZERO
 		alphaFunc GE128
+		depthWrite
+		rgbGen identity
+	}
+	{
+		map $lightmap
+		blendFunc GL_DST_COLOR GL_ZERO
+		depthFunc equal
+		rgbGen identity
+	}
+}
+
+textures/cosmo_sfx/flag_scimitar_brown1_moving
+{
+	qer_editorimage textures/cosmo_sfx/flag_scimitar_brown1.tga
+	qer_trans 0.99
+	surfaceparm nomarks
+	surfaceparm alphashadow
+	cull none
+ 	deformVertexes wave 128 sin 0 7 0 0.4
+	{
+		map textures/cosmo_sfx/flag_scimitar_brown1.tga
+		blendFunc GL_ONE GL_ZERO
+		alphaFunc GE128
+		depthWrite
 		rgbGen identity
 	}
 	{

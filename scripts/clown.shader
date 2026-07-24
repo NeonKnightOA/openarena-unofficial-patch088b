@@ -155,6 +155,24 @@ textures/clown/blue_banner
 	}
 }
 
+textures/clown/blue_banner_static
+{
+	
+	surfaceparm nomarks
+	cull none
+	
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		clampmap textures/clown/blue_banner.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+		
+	}
+}
+
 textures/clown/burn_ow
 {
 	surfaceparm nonsolid
@@ -540,6 +558,24 @@ textures/clown/red_banner
 	surfaceparm nomarks
 	cull none
 	deformVertexes wave 256 sin 0 7 0 0.4
+	
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		clampmap textures/clown/red_banner.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+		
+	}
+} 
+
+textures/clown/red_banner_static
+{
+	
+	surfaceparm nomarks
+	cull none
 	
 	{
 		map $lightmap
